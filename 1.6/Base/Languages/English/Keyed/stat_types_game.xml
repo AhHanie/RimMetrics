@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <RimMetrics.StatTypes.GAME_ABILITIES_CAST>Game abilities cast</RimMetrics.StatTypes.GAME_ABILITIES_CAST>
+  <RimMetrics.StatTypes.GAME_ABILITIES_CAST_BY_TYPE>Game abilities cast by type</RimMetrics.StatTypes.GAME_ABILITIES_CAST_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_ANIMAL_TRAININGS_COMPLETED>Game animal trainings completed</RimMetrics.StatTypes.GAME_ANIMAL_TRAININGS_COMPLETED>
+  <RimMetrics.StatTypes.GAME_ANIMALS_SLAUGHTERED>Game animals slaughtered</RimMetrics.StatTypes.GAME_ANIMALS_SLAUGHTERED>
+  <RimMetrics.StatTypes.GAME_ANIMALS_TAMED>Game animals tamed</RimMetrics.StatTypes.GAME_ANIMALS_TAMED>
+  <RimMetrics.StatTypes.GAME_APPAREL_EQUIPPED>Game apparel equipped</RimMetrics.StatTypes.GAME_APPAREL_EQUIPPED>
+  <RimMetrics.StatTypes.GAME_APPAREL_EQUIPPED_TOTAL>Game apparel equipped (total)</RimMetrics.StatTypes.GAME_APPAREL_EQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.GAME_APPAREL_UNEQUIPPED>Game apparel unequipped</RimMetrics.StatTypes.GAME_APPAREL_UNEQUIPPED>
+  <RimMetrics.StatTypes.GAME_APPAREL_UNEQUIPPED_TOTAL>Game apparel unequipped (total)</RimMetrics.StatTypes.GAME_APPAREL_UNEQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.GAME_ART_CREATED>Game art created</RimMetrics.StatTypes.GAME_ART_CREATED>
+  <RimMetrics.StatTypes.GAME_ARTIFACTS_ACTIVATED>Game artifacts activated</RimMetrics.StatTypes.GAME_ARTIFACTS_ACTIVATED>
+  <RimMetrics.StatTypes.GAME_BODIES_STRIPPED>Game bodies stripped</RimMetrics.StatTypes.GAME_BODIES_STRIPPED>
+  <RimMetrics.StatTypes.GAME_BUILDINGS_CONSTRUCTED_BY_QUALITY>Game buildings constructed by quality</RimMetrics.StatTypes.GAME_BUILDINGS_CONSTRUCTED_BY_QUALITY>
+  <RimMetrics.StatTypes.GAME_BUILDINGS_CONSTRUCTED_BY_TYPE>Game buildings constructed by type</RimMetrics.StatTypes.GAME_BUILDINGS_CONSTRUCTED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_BUILDINGS_DECONSTRUCTED>Game buildings deconstructed</RimMetrics.StatTypes.GAME_BUILDINGS_DECONSTRUCTED>
+  <RimMetrics.StatTypes.GAME_BUILDINGS_DECONSTRUCTED_BY_TYPE>Game buildings deconstructed by type</RimMetrics.StatTypes.GAME_BUILDINGS_DECONSTRUCTED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_CARAVANS_JOINED>Game caravans joined</RimMetrics.StatTypes.GAME_CARAVANS_JOINED>
+  <RimMetrics.StatTypes.GAME_CELLS_MINED>Game cells mined</RimMetrics.StatTypes.GAME_CELLS_MINED>
+  <RimMetrics.StatTypes.GAME_CELLS_MINED_BY_ITEM>Game cells mined by item</RimMetrics.StatTypes.GAME_CELLS_MINED_BY_ITEM>
+  <RimMetrics.StatTypes.GAME_COLONISTS_JOINED>Game colonists joined</RimMetrics.StatTypes.GAME_COLONISTS_JOINED>
+  <RimMetrics.StatTypes.GAME_COLONISTS_LOST>Game colonists lost</RimMetrics.StatTypes.GAME_COLONISTS_LOST>
+  <RimMetrics.StatTypes.GAME_FACTIONS_ALLIED>Game factions allied</RimMetrics.StatTypes.GAME_FACTIONS_ALLIED>
+  <RimMetrics.StatTypes.GAME_FACTIONS_MADE_HOSTILE>Game factions made hostile</RimMetrics.StatTypes.GAME_FACTIONS_MADE_HOSTILE>
+  <RimMetrics.StatTypes.GAME_ROOMS_BUILT>Game rooms built</RimMetrics.StatTypes.GAME_ROOMS_BUILT>
+  <RimMetrics.StatTypes.GAME_ROOMS_BUILT_BY_ROLE>Game rooms built by role</RimMetrics.StatTypes.GAME_ROOMS_BUILT_BY_ROLE>
+  <RimMetrics.StatTypes.GAME_RESEARCH_PROJECTS_COMPLETED>Game research projects completed</RimMetrics.StatTypes.GAME_RESEARCH_PROJECTS_COMPLETED>
+  <RimMetrics.StatTypes.GAME_MARRIAGES>Game marriages</RimMetrics.StatTypes.GAME_MARRIAGES>
+  <RimMetrics.StatTypes.GAME_BREAKUPS>Game breakups</RimMetrics.StatTypes.GAME_BREAKUPS>
+  <RimMetrics.StatTypes.GAME_AFFAIRS>Game affairs</RimMetrics.StatTypes.GAME_AFFAIRS>
+  <RimMetrics.StatTypes.GAME_WALLS_BUILT>Game walls built</RimMetrics.StatTypes.GAME_WALLS_BUILT>
+  <RimMetrics.StatTypes.GAME_FLOORS_LAID>Game floors laid</RimMetrics.StatTypes.GAME_FLOORS_LAID>
+  <RimMetrics.StatTypes.GAME_FLOORS_LAID_BY_TYPE>Game floors laid by type</RimMetrics.StatTypes.GAME_FLOORS_LAID_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_FLOORS_SMOOTHED>Game floors smoothed</RimMetrics.StatTypes.GAME_FLOORS_SMOOTHED>
+  <RimMetrics.StatTypes.GAME_WALLS_SMOOTHED>Game walls smoothed</RimMetrics.StatTypes.GAME_WALLS_SMOOTHED>
+  <RimMetrics.StatTypes.GAME_NUTRITION_PRODUCED>Game nutrition produced</RimMetrics.StatTypes.GAME_NUTRITION_PRODUCED>
+  <RimMetrics.StatTypes.GAME_PLANTS_CUT_BY_TYPE>Game plants cut by type</RimMetrics.StatTypes.GAME_PLANTS_CUT_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_CONTAINERS_OPENED>Game containers opened</RimMetrics.StatTypes.GAME_CONTAINERS_OPENED>
+  <RimMetrics.StatTypes.GAME_CORPSES_BURIED>Game corpses buried</RimMetrics.StatTypes.GAME_CORPSES_BURIED>
+  <RimMetrics.StatTypes.GAME_CRAFTS>Game crafts</RimMetrics.StatTypes.GAME_CRAFTS>
+  <RimMetrics.StatTypes.GAME_CRAFTS_BY_ITEM>Game crafts by item</RimMetrics.StatTypes.GAME_CRAFTS_BY_ITEM>
+  <RimMetrics.StatTypes.GAME_CRAFTS_BY_QUALITY>Game crafts by quality</RimMetrics.StatTypes.GAME_CRAFTS_BY_QUALITY>
+  <RimMetrics.StatTypes.GAME_CRAFTS_BY_THING_CATEGORIES>Game crafts by thing categories</RimMetrics.StatTypes.GAME_CRAFTS_BY_THING_CATEGORIES>
+  <RimMetrics.StatTypes.GAME_CRAFTS_MARKET_VALUE>Game crafts market value</RimMetrics.StatTypes.GAME_CRAFTS_MARKET_VALUE>
+  <RimMetrics.StatTypes.GAME_TRADE_PROFIT>Game trade profit</RimMetrics.StatTypes.GAME_TRADE_PROFIT>
+  <RimMetrics.StatTypes.GAME_DAMAGE_DEALT>Game damage dealt</RimMetrics.StatTypes.GAME_DAMAGE_DEALT>
+  <RimMetrics.StatTypes.GAME_DAMAGE_DEALT_BY_TYPE>Game damage dealt by type</RimMetrics.StatTypes.GAME_DAMAGE_DEALT_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_DAMAGE_TAKEN>Game damage taken</RimMetrics.StatTypes.GAME_DAMAGE_TAKEN>
+  <RimMetrics.StatTypes.GAME_DAMAGE_TAKEN_BY_TYPE>Game damage taken by type</RimMetrics.StatTypes.GAME_DAMAGE_TAKEN_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_DAYS_SICK>Game days sick</RimMetrics.StatTypes.GAME_DAYS_SICK>
+  <RimMetrics.StatTypes.GAME_DISEASES_CONTRACTED>Game diseases contracted</RimMetrics.StatTypes.GAME_DISEASES_CONTRACTED>
+  <RimMetrics.StatTypes.GAME_DISEASES_RECOVERED>Game diseases recovered</RimMetrics.StatTypes.GAME_DISEASES_RECOVERED>
+  <RimMetrics.StatTypes.GAME_DOWNED>Game downed</RimMetrics.StatTypes.GAME_DOWNED>
+  <RimMetrics.StatTypes.GAME_DRAFTED>Game times drafted</RimMetrics.StatTypes.GAME_DRAFTED>
+  <RimMetrics.StatTypes.GAME_FIRES_EXTINGUISHED>Game fires extinguished</RimMetrics.StatTypes.GAME_FIRES_EXTINGUISHED>
+  <RimMetrics.StatTypes.GAME_FISH_CAUGHT>Game fish caught</RimMetrics.StatTypes.GAME_FISH_CAUGHT>
+  <RimMetrics.StatTypes.GAME_FRIENDLY_FIRE>Game friendly fire damage</RimMetrics.StatTypes.GAME_FRIENDLY_FIRE>
+  <RimMetrics.StatTypes.GAME_FRIENDLY_FIRE_HITS>Game friendly fire hits</RimMetrics.StatTypes.GAME_FRIENDLY_FIRE_HITS>
+  <RimMetrics.StatTypes.GAME_GRAVSHIPS_LAUNCHED>Game gravships launched</RimMetrics.StatTypes.GAME_GRAVSHIPS_LAUNCHED>
+  <RimMetrics.StatTypes.GAME_HEADSHOTS>Game headshots</RimMetrics.StatTypes.GAME_HEADSHOTS>
+  <RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED>Game hits causing downed</RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED>
+  <RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_ANIMALS>Game hits causing downed (animals)</RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_ANIMALS>
+  <RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_ENTITIES>Game hits causing downed (entities)</RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_ENTITIES>
+  <RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_HUMANLIKES>Game hits causing downed (humanlikes)</RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_HUMANLIKES>
+  <RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_MECHANOIDS>Game hits causing downed (mechanoids)</RimMetrics.StatTypes.GAME_HITS_CAUSING_DOWNED_MECHANOIDS>
+  <RimMetrics.StatTypes.GAME_HUMANS_BUTCHERED>Game humans butchered</RimMetrics.StatTypes.GAME_HUMANS_BUTCHERED>
+  <RimMetrics.StatTypes.GAME_INSPIRATIONS>Game inspirations</RimMetrics.StatTypes.GAME_INSPIRATIONS>
+  <RimMetrics.StatTypes.GAME_INSPIRATIONS_BY_TYPE>Game inspirations by type</RimMetrics.StatTypes.GAME_INSPIRATIONS_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_KILLS>Game kills</RimMetrics.StatTypes.GAME_KILLS>
+  <RimMetrics.StatTypes.GAME_KILLS_BY_RACE>Game kills by race</RimMetrics.StatTypes.GAME_KILLS_BY_RACE>
+  <RimMetrics.StatTypes.GAME_KILLS_BY_WEAPON_DEF>Game kills by weapon</RimMetrics.StatTypes.GAME_KILLS_BY_WEAPON_DEF>
+  <RimMetrics.StatTypes.GAME_KILLS_BY_XENOTYPE>Game kills by xenotype</RimMetrics.StatTypes.GAME_KILLS_BY_XENOTYPE>
+  <RimMetrics.StatTypes.GAME_KILLS_EMPIRE>Game kills (empire)</RimMetrics.StatTypes.GAME_KILLS_EMPIRE>
+  <RimMetrics.StatTypes.GAME_KILLS_ENTITY>Game kills (entities)</RimMetrics.StatTypes.GAME_KILLS_ENTITY>
+  <RimMetrics.StatTypes.GAME_KILLS_MECHANOID>Game kills (mechanoids)</RimMetrics.StatTypes.GAME_KILLS_MECHANOID>
+  <RimMetrics.StatTypes.GAME_KILLS_RAIDERS>Game kills (raiders)</RimMetrics.StatTypes.GAME_KILLS_RAIDERS>
+  <RimMetrics.StatTypes.GAME_KILLS_WILDLIFE>Game kills (wildlife)</RimMetrics.StatTypes.GAME_KILLS_WILDLIFE>
+  <RimMetrics.StatTypes.GAME_MEALS_AT_TABLE>Game meals at table</RimMetrics.StatTypes.GAME_MEALS_AT_TABLE>
+  <RimMetrics.StatTypes.GAME_MEALS_COOKED>Game meals cooked</RimMetrics.StatTypes.GAME_MEALS_COOKED>
+  <RimMetrics.StatTypes.GAME_MEALS_WITHOUT_TABLE>Game meals without table</RimMetrics.StatTypes.GAME_MEALS_WITHOUT_TABLE>
+  <RimMetrics.StatTypes.GAME_MEDICAL_ITEM_VALUE_USED>Game medical item value used</RimMetrics.StatTypes.GAME_MEDICAL_ITEM_VALUE_USED>
+  <RimMetrics.StatTypes.GAME_MEDICAL_ITEMS_USED_BY_TYPE>Game medical items used by type</RimMetrics.StatTypes.GAME_MEDICAL_ITEMS_USED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_MELEE_ATTACKS>Game melee attacks</RimMetrics.StatTypes.GAME_MELEE_ATTACKS>
+  <RimMetrics.StatTypes.GAME_MELEE_DODGES>Game melee dodges</RimMetrics.StatTypes.GAME_MELEE_DODGES>
+  <RimMetrics.StatTypes.GAME_MELEE_HITS>Game melee hits</RimMetrics.StatTypes.GAME_MELEE_HITS>
+  <RimMetrics.StatTypes.GAME_MELEE_MISSES>Game melee misses</RimMetrics.StatTypes.GAME_MELEE_MISSES>
+  <RimMetrics.StatTypes.GAME_MESSES_CLEANED>Game messes cleaned</RimMetrics.StatTypes.GAME_MESSES_CLEANED>
+  <RimMetrics.StatTypes.GAME_NEAR_DEATH_EVENTS>Game near-death events (bleeding)</RimMetrics.StatTypes.GAME_NEAR_DEATH_EVENTS>
+  <RimMetrics.StatTypes.GAME_NEGOTIATED_TRADES>Game negotiated trades</RimMetrics.StatTypes.GAME_NEGOTIATED_TRADES>
+  <RimMetrics.StatTypes.GAME_ITEMS_BOUGHT_BY_TYPE>Game items bought by type</RimMetrics.StatTypes.GAME_ITEMS_BOUGHT_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_ITEMS_SOLD_BY_TYPE>Game items sold by type</RimMetrics.StatTypes.GAME_ITEMS_SOLD_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_NUTRITION_EATEN>Game nutrition eaten</RimMetrics.StatTypes.GAME_NUTRITION_EATEN>
+  <RimMetrics.StatTypes.GAME_OPERATIONS_PERFORMED>Game operations performed</RimMetrics.StatTypes.GAME_OPERATIONS_PERFORMED>
+  <RimMetrics.StatTypes.GAME_OPERATIONS_RECEIVED>Game operations received</RimMetrics.StatTypes.GAME_OPERATIONS_RECEIVED>
+  <RimMetrics.StatTypes.GAME_PEOPLE_CAPTURED>Game people captured</RimMetrics.StatTypes.GAME_PEOPLE_CAPTURED>
+  <RimMetrics.StatTypes.GAME_PEOPLE_CONVERTED>Game people converted</RimMetrics.StatTypes.GAME_PEOPLE_CONVERTED>
+  <RimMetrics.StatTypes.GAME_PLANTS_CUT>Game plants cut</RimMetrics.StatTypes.GAME_PLANTS_CUT>
+  <RimMetrics.StatTypes.GAME_BLIGHTED_PLANTS_CUT>Game blighted plants cut</RimMetrics.StatTypes.GAME_BLIGHTED_PLANTS_CUT>
+  <RimMetrics.StatTypes.GAME_PLANTS_HARVESTED>Game plants harvested</RimMetrics.StatTypes.GAME_PLANTS_HARVESTED>
+  <RimMetrics.StatTypes.GAME_PLANTS_SOWN>Game plants sown</RimMetrics.StatTypes.GAME_PLANTS_SOWN>
+  <RimMetrics.StatTypes.GAME_PRISONERS_CHATTED>Game prisoners chatted</RimMetrics.StatTypes.GAME_PRISONERS_CHATTED>
+  <RimMetrics.StatTypes.GAME_PRISONERS_RECRUITED>Game prisoners recruited</RimMetrics.StatTypes.GAME_PRISONERS_RECRUITED>
+  <RimMetrics.StatTypes.GAME_PSYCASTS_CAST>Game psycasts cast</RimMetrics.StatTypes.GAME_PSYCASTS_CAST>
+  <RimMetrics.StatTypes.GAME_PSYCASTS_CAST_BY_TYPE>Game psycasts cast by type</RimMetrics.StatTypes.GAME_PSYCASTS_CAST_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_QUESTS_ACCEPTED>Game quests accepted</RimMetrics.StatTypes.GAME_QUESTS_ACCEPTED>
+  <RimMetrics.StatTypes.GAME_QUESTS_COMPLETED>Game quests completed</RimMetrics.StatTypes.GAME_QUESTS_COMPLETED>
+  <RimMetrics.StatTypes.GAME_QUESTS_FAILED>Game quests failed</RimMetrics.StatTypes.GAME_QUESTS_FAILED>
+  <RimMetrics.StatTypes.GAME_RESCUES_PERFORMED>Game rescues performed</RimMetrics.StatTypes.GAME_RESCUES_PERFORMED>
+  <RimMetrics.StatTypes.GAME_RESCUES_RECEIVED>Game rescues received</RimMetrics.StatTypes.GAME_RESCUES_RECEIVED>
+  <RimMetrics.StatTypes.GAME_RESEARCH_POINTS_RESEARCHED>Game research points researched</RimMetrics.StatTypes.GAME_RESEARCH_POINTS_RESEARCHED>
+  <RimMetrics.StatTypes.GAME_RESEARCH_SESSIONS>Game research sessions started</RimMetrics.StatTypes.GAME_RESEARCH_SESSIONS>
+  <RimMetrics.StatTypes.GAME_RITUALS_ATTENDED>Game rituals attended</RimMetrics.StatTypes.GAME_RITUALS_ATTENDED>
+  <RimMetrics.StatTypes.GAME_RITUALS_ATTENDED_BY_TYPE>Game rituals attended by type</RimMetrics.StatTypes.GAME_RITUALS_ATTENDED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_SHIELD_DAMAGE_ABSORBED>Game shield damage absorbed</RimMetrics.StatTypes.GAME_SHIELD_DAMAGE_ABSORBED>
+  <RimMetrics.StatTypes.GAME_SHIELD_HITS_ABSORBED>Game shield hits absorbed</RimMetrics.StatTypes.GAME_SHIELD_HITS_ABSORBED>
+  <RimMetrics.StatTypes.GAME_SHOTS_ACCURACY>Game shots accuracy (%)</RimMetrics.StatTypes.GAME_SHOTS_ACCURACY>
+  <RimMetrics.StatTypes.GAME_SHOTS_FIRED>Game shots fired</RimMetrics.StatTypes.GAME_SHOTS_FIRED>
+  <RimMetrics.StatTypes.GAME_SHOTS_HIT>Game shots hit</RimMetrics.StatTypes.GAME_SHOTS_HIT>
+  <RimMetrics.StatTypes.GAME_SHUTTLES_LAUNCHED>Game shuttles launched</RimMetrics.StatTypes.GAME_SHUTTLES_LAUNCHED>
+  <RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS>Game total incidents</RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS>
+  <RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS_BY_TYPE>Game total incidents by type</RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TOTAL_RAIDS>Game total raids</RimMetrics.StatTypes.GAME_TOTAL_RAIDS>
+  <RimMetrics.StatTypes.GAME_SOCIAL_FIGHTS>Game social fights</RimMetrics.StatTypes.GAME_SOCIAL_FIGHTS>
+  <RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS>Game social interactions</RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS>
+  <RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS_BY_TYPE>Game social interactions by type</RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_SURGERIES_BOTCHED>Game surgeries botched</RimMetrics.StatTypes.GAME_SURGERIES_BOTCHED>
+  <RimMetrics.StatTypes.GAME_SWITCHES_FLICKED>Game switches flicked</RimMetrics.StatTypes.GAME_SWITCHES_FLICKED>
+  <RimMetrics.StatTypes.GAME_THINGS_CONSTRUCTED>Game things constructed</RimMetrics.StatTypes.GAME_THINGS_CONSTRUCTED>
+  <RimMetrics.StatTypes.GAME_THINGS_HAULED>Game things hauled</RimMetrics.StatTypes.GAME_THINGS_HAULED>
+  <RimMetrics.StatTypes.GAME_THINGS_INSTALLED>Game things installed</RimMetrics.StatTypes.GAME_THINGS_INSTALLED>
+  <RimMetrics.StatTypes.GAME_THINGS_REPAIRED>Game things repaired</RimMetrics.StatTypes.GAME_THINGS_REPAIRED>
+  <RimMetrics.StatTypes.GAME_THINGS_UNINSTALLED>Game things uninstalled</RimMetrics.StatTypes.GAME_THINGS_UNINSTALLED>
+  <RimMetrics.StatTypes.GAME_TRANSPORT_PODS_LAUNCHED>Game transport pods launched</RimMetrics.StatTypes.GAME_TRANSPORT_PODS_LAUNCHED>
+  <RimMetrics.StatTypes.GAME_TIME_AS_CHILD_IN_COLONY>Game time as child in community</RimMetrics.StatTypes.GAME_TIME_AS_CHILD_IN_COLONY>
+  <RimMetrics.StatTypes.GAME_TIME_AS_COLONIST_OR_COLONY_ANIMAL>Game time as a colonist</RimMetrics.StatTypes.GAME_TIME_AS_COLONIST_OR_COLONY_ANIMAL>
+  <RimMetrics.StatTypes.GAME_TIME_AS_PRISONER>Game time as a prisoner</RimMetrics.StatTypes.GAME_TIME_AS_PRISONER>
+  <RimMetrics.StatTypes.GAME_TIME_AS_QUEST_LODGER>Game time hosted</RimMetrics.StatTypes.GAME_TIME_AS_QUEST_LODGER>
+  <RimMetrics.StatTypes.GAME_TIME_CLEANING>Game time cleaning</RimMetrics.StatTypes.GAME_TIME_CLEANING>
+  <RimMetrics.StatTypes.GAME_TIME_CONSTRUCTING>Game time constructing</RimMetrics.StatTypes.GAME_TIME_CONSTRUCTING>
+  <RimMetrics.StatTypes.GAME_TIME_DOWNED>Game time downed</RimMetrics.StatTypes.GAME_TIME_DOWNED>
+  <RimMetrics.StatTypes.GAME_TIME_DRAFTED>Game time drafted</RimMetrics.StatTypes.GAME_TIME_DRAFTED>
+  <RimMetrics.StatTypes.GAME_TIME_FIREFIGHTING>Game time firefighting</RimMetrics.StatTypes.GAME_TIME_FIREFIGHTING>
+  <RimMetrics.StatTypes.GAME_TIME_GETTING_FOOD>Game time finding food and eating</RimMetrics.StatTypes.GAME_TIME_GETTING_FOOD>
+  <RimMetrics.StatTypes.GAME_TIME_GETTING_JOY>Game time spent on entertainment</RimMetrics.StatTypes.GAME_TIME_GETTING_JOY>
+  <RimMetrics.StatTypes.GAME_TIME_HANDLING_ANIMALS>Game time handling animals</RimMetrics.StatTypes.GAME_TIME_HANDLING_ANIMALS>
+  <RimMetrics.StatTypes.GAME_TIME_HAULING>Game time hauling</RimMetrics.StatTypes.GAME_TIME_HAULING>
+  <RimMetrics.StatTypes.GAME_TIME_HUNTING>Game time hunting</RimMetrics.StatTypes.GAME_TIME_HUNTING>
+  <RimMetrics.StatTypes.GAME_TIME_IDLE>Game time idle</RimMetrics.StatTypes.GAME_TIME_IDLE>
+  <RimMetrics.StatTypes.GAME_TIME_IN_BED>Game time in a bed</RimMetrics.StatTypes.GAME_TIME_IN_BED>
+  <RimMetrics.StatTypes.GAME_TIME_IN_BED_FOR_MEDICAL_REASONS>Game time in a bed for medical reasons</RimMetrics.StatTypes.GAME_TIME_IN_BED_FOR_MEDICAL_REASONS>
+  <RimMetrics.StatTypes.GAME_TIME_IN_MENTAL_STATE>Game time in mental state</RimMetrics.StatTypes.GAME_TIME_IN_MENTAL_STATE>
+  <RimMetrics.StatTypes.GAME_TIME_MINING>Game time mining</RimMetrics.StatTypes.GAME_TIME_MINING>
+  <RimMetrics.StatTypes.GAME_TIME_ON_FIRE>Game time on fire</RimMetrics.StatTypes.GAME_TIME_ON_FIRE>
+  <RimMetrics.StatTypes.GAME_TIME_REPAIRING>Game time repairing</RimMetrics.StatTypes.GAME_TIME_REPAIRING>
+  <RimMetrics.StatTypes.GAME_TIME_RESEARCHING>Game time researching</RimMetrics.StatTypes.GAME_TIME_RESEARCHING>
+  <RimMetrics.StatTypes.GAME_TIME_SOWING_AND_HARVESTING>Game time sowing and harvesting</RimMetrics.StatTypes.GAME_TIME_SOWING_AND_HARVESTING>
+  <RimMetrics.StatTypes.GAME_TIME_TREATING_AND_FEEDING>Game time treating and feeding</RimMetrics.StatTypes.GAME_TIME_TREATING_AND_FEEDING>
+  <RimMetrics.StatTypes.GAME_TIME_UNDER_ROOF>Game time under a roof</RimMetrics.StatTypes.GAME_TIME_UNDER_ROOF>
+  <RimMetrics.StatTypes.GAME_TIME_WARDENING>Game time wardening</RimMetrics.StatTypes.GAME_TIME_WARDENING>
+  <RimMetrics.StatTypes.GAME_TIME_WEAPON_USED_BY_DEF>Game time weapon used (ticks)</RimMetrics.StatTypes.GAME_TIME_WEAPON_USED_BY_DEF>
+  <RimMetrics.StatTypes.GAME_TIMES_FISHED>Game times fished</RimMetrics.StatTypes.GAME_TIMES_FISHED>
+  <RimMetrics.StatTypes.GAME_TIMES_IN_MENTAL_STATE>Game times in mental state</RimMetrics.StatTypes.GAME_TIMES_IN_MENTAL_STATE>
+  <RimMetrics.StatTypes.GAME_MEMORY_THOUGHTS>Game memory thoughts</RimMetrics.StatTypes.GAME_MEMORY_THOUGHTS>
+  <RimMetrics.StatTypes.GAME_MEMORY_THOUGHTS_BY_TYPE>Game memory thoughts by type</RimMetrics.StatTypes.GAME_MEMORY_THOUGHTS_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TIMES_IN_MENTAL_STATE_BY_TYPE>Game times in mental state by type</RimMetrics.StatTypes.GAME_TIMES_IN_MENTAL_STATE_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TIMES_ON_FIRE>Game times on fire</RimMetrics.StatTypes.GAME_TIMES_ON_FIRE>
+  <RimMetrics.StatTypes.GAME_TIMES_TENDED_OTHER>Game tends given</RimMetrics.StatTypes.GAME_TIMES_TENDED_OTHER>
+  <RimMetrics.StatTypes.GAME_TIMES_TENDED_TO>Game tends received</RimMetrics.StatTypes.GAME_TIMES_TENDED_TO>
+  <RimMetrics.StatTypes.GAME_TRADES_EARNED>Game trade earnings</RimMetrics.StatTypes.GAME_TRADES_EARNED>
+  <RimMetrics.StatTypes.GAME_TRADES_INITIATED>Game trade expenses</RimMetrics.StatTypes.GAME_TRADES_INITIATED>
+  <RimMetrics.StatTypes.GAME_TRADES_PAID>Game trades paid</RimMetrics.StatTypes.GAME_TRADES_PAID>
+  <RimMetrics.StatTypes.GAME_TREES_CHOPPED>Game trees chopped</RimMetrics.StatTypes.GAME_TREES_CHOPPED>
+  <RimMetrics.StatTypes.GAME_WEAPONS_EQUIPPED>Game weapons equipped</RimMetrics.StatTypes.GAME_WEAPONS_EQUIPPED>
+  <RimMetrics.StatTypes.GAME_WEAPONS_EQUIPPED_TOTAL>Game weapons equipped (total)</RimMetrics.StatTypes.GAME_WEAPONS_EQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.GAME_WEAPONS_UNEQUIPPED>Game weapons unequipped</RimMetrics.StatTypes.GAME_WEAPONS_UNEQUIPPED>
+  <RimMetrics.StatTypes.GAME_WEAPONS_UNEQUIPPED_TOTAL>Game weapons unequipped (total)</RimMetrics.StatTypes.GAME_WEAPONS_UNEQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.GAME_SKILL_LEVELS_GAINED>Game skill levels gained</RimMetrics.StatTypes.GAME_SKILL_LEVELS_GAINED>
+  <RimMetrics.StatTypes.GAME_GENES_GAINED>Game genes gained</RimMetrics.StatTypes.GAME_GENES_GAINED>
+  <RimMetrics.StatTypes.GAME_GENES_GAINED_BY_TYPE>Game genes gained by type</RimMetrics.StatTypes.GAME_GENES_GAINED_BY_TYPE>
+</LanguageData>

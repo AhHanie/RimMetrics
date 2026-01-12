@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_WEAPONS_EQUIPPED>Pawn infused weapons equipped (total)</RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_WEAPONS_EQUIPPED>
+  <RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_APPAREL_EQUIPPED>Pawn infused apparel equipped (total)</RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_APPAREL_EQUIPPED>
+  <RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TYPE>Pawn infused weapons equipped by infusion</RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TYPE>Pawn infused apparel equipped by infusion</RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TIER>Pawn infused weapons equipped by tier</RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TIER>
+  <RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TIER>Pawn infused apparel equipped by tier</RimMetrics.StatTypes.PAWN_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TIER>
+  <RimMetrics.StatTypes.PAWN_INFUSION_EFFECTS_ACTIVATED>Pawn infusion effects activated</RimMetrics.StatTypes.PAWN_INFUSION_EFFECTS_ACTIVATED>
+</LanguageData>

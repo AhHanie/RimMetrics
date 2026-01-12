@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <RimMetrics.StatTypes.PAWN_KILLS>Pawn kills</RimMetrics.StatTypes.PAWN_KILLS>
+  <RimMetrics.StatTypes.PAWN_KILLS_WILDLIFE>Pawn kills (wildlife)</RimMetrics.StatTypes.PAWN_KILLS_WILDLIFE>
+  <RimMetrics.StatTypes.PAWN_KILLS_RAIDERS>Pawn kills (raiders)</RimMetrics.StatTypes.PAWN_KILLS_RAIDERS>
+  <RimMetrics.StatTypes.PAWN_KILLS_MECHANOID>Pawn kills (mechanoids)</RimMetrics.StatTypes.PAWN_KILLS_MECHANOID>
+  <RimMetrics.StatTypes.PAWN_KILLS_EMPIRE>Pawn kills (empire)</RimMetrics.StatTypes.PAWN_KILLS_EMPIRE>
+  <RimMetrics.StatTypes.PAWN_KILLS_ENTITY>Pawn kills (entities)</RimMetrics.StatTypes.PAWN_KILLS_ENTITY>
+  <RimMetrics.StatTypes.PAWN_KILLS_BY_RACE>Pawn kills by race</RimMetrics.StatTypes.PAWN_KILLS_BY_RACE>
+  <RimMetrics.StatTypes.PAWN_KILLS_BY_XENOTYPE>Pawn kills by xenotype</RimMetrics.StatTypes.PAWN_KILLS_BY_XENOTYPE>
+  <RimMetrics.StatTypes.PAWN_KILLS_BY_WEAPON_DEF>Pawn kills by weapon</RimMetrics.StatTypes.PAWN_KILLS_BY_WEAPON_DEF>
+  <RimMetrics.StatTypes.PAWN_WEAPONS_EQUIPPED>Pawn weapons equipped</RimMetrics.StatTypes.PAWN_WEAPONS_EQUIPPED>
+  <RimMetrics.StatTypes.PAWN_WEAPONS_EQUIPPED_TOTAL>Pawn weapons equipped (total)</RimMetrics.StatTypes.PAWN_WEAPONS_EQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.PAWN_WEAPONS_UNEQUIPPED>Pawn weapons unequipped</RimMetrics.StatTypes.PAWN_WEAPONS_UNEQUIPPED>
+  <RimMetrics.StatTypes.PAWN_WEAPONS_UNEQUIPPED_TOTAL>Pawn weapons unequipped (total)</RimMetrics.StatTypes.PAWN_WEAPONS_UNEQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.PAWN_APPAREL_EQUIPPED>Pawn apparel equipped</RimMetrics.StatTypes.PAWN_APPAREL_EQUIPPED>
+  <RimMetrics.StatTypes.PAWN_APPAREL_EQUIPPED_TOTAL>Pawn apparel equipped (total)</RimMetrics.StatTypes.PAWN_APPAREL_EQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.PAWN_APPAREL_UNEQUIPPED>Pawn apparel unequipped</RimMetrics.StatTypes.PAWN_APPAREL_UNEQUIPPED>
+  <RimMetrics.StatTypes.PAWN_APPAREL_UNEQUIPPED_TOTAL>Pawn apparel unequipped (total)</RimMetrics.StatTypes.PAWN_APPAREL_UNEQUIPPED_TOTAL>
+  <RimMetrics.StatTypes.PAWN_ART_CREATED>Pawn art created</RimMetrics.StatTypes.PAWN_ART_CREATED>
+  <RimMetrics.StatTypes.PAWN_TIME_WEAPON_USED_BY_DEF>Pawn time weapon used (ticks)</RimMetrics.StatTypes.PAWN_TIME_WEAPON_USED_BY_DEF>
+  <RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED>Pawn hits causing downed</RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED>
+  <RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_HUMANLIKES>Pawn hits causing downed (humanlikes)</RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_HUMANLIKES>
+  <RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_ANIMALS>Pawn hits causing downed (animals)</RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_ANIMALS>
+  <RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_MECHANOIDS>Pawn hits causing downed (mechanoids)</RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_MECHANOIDS>
+  <RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_ENTITIES>Pawn hits causing downed (entities)</RimMetrics.StatTypes.PAWN_HITS_CAUSING_DOWNED_ENTITIES>
+  <RimMetrics.StatTypes.PAWN_DOWNED>Pawn downed</RimMetrics.StatTypes.PAWN_DOWNED>
+  <RimMetrics.StatTypes.PAWN_SHOTS_FIRED>Pawn shots fired</RimMetrics.StatTypes.PAWN_SHOTS_FIRED>
+  <RimMetrics.StatTypes.PAWN_SHOTS_HIT>Pawn shots hit</RimMetrics.StatTypes.PAWN_SHOTS_HIT>
+  <RimMetrics.StatTypes.PAWN_SHOTS_ACCURACY>Pawn shots accuracy (%)</RimMetrics.StatTypes.PAWN_SHOTS_ACCURACY>
+  <RimMetrics.StatTypes.PAWN_MELEE_ATTACKS>Pawn melee attacks</RimMetrics.StatTypes.PAWN_MELEE_ATTACKS>
+  <RimMetrics.StatTypes.PAWN_MELEE_HITS>Pawn melee hits</RimMetrics.StatTypes.PAWN_MELEE_HITS>
+  <RimMetrics.StatTypes.PAWN_MELEE_MISSES>Pawn melee misses</RimMetrics.StatTypes.PAWN_MELEE_MISSES>
+  <RimMetrics.StatTypes.PAWN_MELEE_DODGES>Pawn melee dodges</RimMetrics.StatTypes.PAWN_MELEE_DODGES>
+  <RimMetrics.StatTypes.PAWN_HEADSHOTS>Pawn headshots</RimMetrics.StatTypes.PAWN_HEADSHOTS>
+  <RimMetrics.StatTypes.PAWN_DAMAGE_DEALT>Pawn damage dealt</RimMetrics.StatTypes.PAWN_DAMAGE_DEALT>
+  <RimMetrics.StatTypes.PAWN_DAMAGE_DEALT_BY_TYPE>Pawn damage dealt by type</RimMetrics.StatTypes.PAWN_DAMAGE_DEALT_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_DAMAGE_TAKEN>Pawn damage taken</RimMetrics.StatTypes.PAWN_DAMAGE_TAKEN>
+  <RimMetrics.StatTypes.PAWN_DAMAGE_TAKEN_BY_TYPE>Pawn damage taken by type</RimMetrics.StatTypes.PAWN_DAMAGE_TAKEN_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_SHIELD_DAMAGE_ABSORBED>Pawn shield damage absorbed</RimMetrics.StatTypes.PAWN_SHIELD_DAMAGE_ABSORBED>
+  <RimMetrics.StatTypes.PAWN_SHIELD_HITS_ABSORBED>Pawn shield hits absorbed</RimMetrics.StatTypes.PAWN_SHIELD_HITS_ABSORBED>
+  <RimMetrics.StatTypes.PAWN_CRAFTS>Pawn crafts</RimMetrics.StatTypes.PAWN_CRAFTS>
+  <RimMetrics.StatTypes.PAWN_CRAFTS_BY_ITEM>Pawn crafts by item</RimMetrics.StatTypes.PAWN_CRAFTS_BY_ITEM>
+  <RimMetrics.StatTypes.PAWN_MEALS_COOKED>Pawn meals cooked</RimMetrics.StatTypes.PAWN_MEALS_COOKED>
+  <RimMetrics.StatTypes.PAWN_CRAFTS_BY_THING_CATEGORIES>Pawn crafts by thing categories</RimMetrics.StatTypes.PAWN_CRAFTS_BY_THING_CATEGORIES>
+  <RimMetrics.StatTypes.PAWN_CRAFTS_BY_QUALITY>Pawn crafts by quality</RimMetrics.StatTypes.PAWN_CRAFTS_BY_QUALITY>
+  <RimMetrics.StatTypes.PAWN_CRAFTS_MARKET_VALUE>Pawn crafts market value</RimMetrics.StatTypes.PAWN_CRAFTS_MARKET_VALUE>
+  <RimMetrics.StatTypes.PAWN_THINGS_CONSTRUCTED>Pawn things constructed</RimMetrics.StatTypes.PAWN_THINGS_CONSTRUCTED>
+  <RimMetrics.StatTypes.PAWN_BUILDINGS_CONSTRUCTED_BY_TYPE>Pawn buildings constructed by type</RimMetrics.StatTypes.PAWN_BUILDINGS_CONSTRUCTED_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_BUILDINGS_CONSTRUCTED_BY_QUALITY>Pawn buildings constructed by quality</RimMetrics.StatTypes.PAWN_BUILDINGS_CONSTRUCTED_BY_QUALITY>
+  <RimMetrics.StatTypes.PAWN_BUILDINGS_DECONSTRUCTED>Pawn buildings deconstructed</RimMetrics.StatTypes.PAWN_BUILDINGS_DECONSTRUCTED>
+  <RimMetrics.StatTypes.PAWN_BUILDINGS_DECONSTRUCTED_BY_TYPE>Pawn buildings deconstructed by type</RimMetrics.StatTypes.PAWN_BUILDINGS_DECONSTRUCTED_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_ABILITIES_CAST>Pawn abilities cast</RimMetrics.StatTypes.PAWN_ABILITIES_CAST>
+  <RimMetrics.StatTypes.PAWN_PSYCASTS_CAST>Pawn psycasts cast</RimMetrics.StatTypes.PAWN_PSYCASTS_CAST>
+  <RimMetrics.StatTypes.PAWN_ABILITIES_CAST_BY_TYPE>Pawn abilities cast by type</RimMetrics.StatTypes.PAWN_ABILITIES_CAST_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_PSYCASTS_CAST_BY_TYPE>Pawn psycasts cast by type</RimMetrics.StatTypes.PAWN_PSYCASTS_CAST_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TILES_WALKED>Pawn tiles walked</RimMetrics.StatTypes.PAWN_TILES_WALKED>
+  <RimMetrics.StatTypes.PAWN_TIMES_IN_MENTAL_STATE>Pawn times in mental state</RimMetrics.StatTypes.PAWN_TIMES_IN_MENTAL_STATE>
+  <RimMetrics.StatTypes.PAWN_MEMORY_THOUGHTS>Pawn memory thoughts</RimMetrics.StatTypes.PAWN_MEMORY_THOUGHTS>
+  <RimMetrics.StatTypes.PAWN_MEMORY_THOUGHTS_BY_TYPE>Pawn memory thoughts by type</RimMetrics.StatTypes.PAWN_MEMORY_THOUGHTS_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TIMES_ON_FIRE>Pawn times on fire</RimMetrics.StatTypes.PAWN_TIMES_ON_FIRE>
+  <RimMetrics.StatTypes.PAWN_FIRES_EXTINGUISHED>Pawn fires extinguished</RimMetrics.StatTypes.PAWN_FIRES_EXTINGUISHED>
+  <RimMetrics.StatTypes.PAWN_OPERATIONS_RECEIVED>Pawn operations received</RimMetrics.StatTypes.PAWN_OPERATIONS_RECEIVED>
+  <RimMetrics.StatTypes.PAWN_OPERATIONS_PERFORMED>Pawn operations performed</RimMetrics.StatTypes.PAWN_OPERATIONS_PERFORMED>
+  <RimMetrics.StatTypes.PAWN_TIMES_TENDED_TO>Pawn tends received</RimMetrics.StatTypes.PAWN_TIMES_TENDED_TO>
+  <RimMetrics.StatTypes.PAWN_TIMES_TENDED_OTHER>Pawn tends given</RimMetrics.StatTypes.PAWN_TIMES_TENDED_OTHER>
+  <RimMetrics.StatTypes.PAWN_MEDICAL_ITEM_VALUE_USED>Pawn medical item value used</RimMetrics.StatTypes.PAWN_MEDICAL_ITEM_VALUE_USED>
+  <RimMetrics.StatTypes.PAWN_MEDICAL_ITEMS_USED_BY_TYPE>Pawn medical items used by type</RimMetrics.StatTypes.PAWN_MEDICAL_ITEMS_USED_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_SURGERIES_BOTCHED>Pawn surgeries botched</RimMetrics.StatTypes.PAWN_SURGERIES_BOTCHED>
+  <RimMetrics.StatTypes.PAWN_PEOPLE_CAPTURED>Pawn people captured</RimMetrics.StatTypes.PAWN_PEOPLE_CAPTURED>
+  <RimMetrics.StatTypes.PAWN_PRISONERS_RECRUITED>Pawn prisoners recruited</RimMetrics.StatTypes.PAWN_PRISONERS_RECRUITED>
+  <RimMetrics.StatTypes.PAWN_PRISONERS_CHATTED>Pawn prisoners chatted</RimMetrics.StatTypes.PAWN_PRISONERS_CHATTED>
+  <RimMetrics.StatTypes.PAWN_ANIMALS_TAMED>Pawn animals tamed</RimMetrics.StatTypes.PAWN_ANIMALS_TAMED>
+  <RimMetrics.StatTypes.PAWN_ANIMAL_TRAININGS_COMPLETED>Pawn animal trainings completed</RimMetrics.StatTypes.PAWN_ANIMAL_TRAININGS_COMPLETED>
+  <RimMetrics.StatTypes.PAWN_ANIMALS_SLAUGHTERED>Pawn animals slaughtered</RimMetrics.StatTypes.PAWN_ANIMALS_SLAUGHTERED>
+  <RimMetrics.StatTypes.PAWN_HUMANS_BUTCHERED>Pawn humans butchered</RimMetrics.StatTypes.PAWN_HUMANS_BUTCHERED>
+  <RimMetrics.StatTypes.PAWN_THINGS_INSTALLED>Pawn things installed</RimMetrics.StatTypes.PAWN_THINGS_INSTALLED>
+  <RimMetrics.StatTypes.PAWN_THINGS_REPAIRED>Pawn things repaired</RimMetrics.StatTypes.PAWN_THINGS_REPAIRED>
+  <RimMetrics.StatTypes.PAWN_THINGS_HAULED>Pawn things hauled</RimMetrics.StatTypes.PAWN_THINGS_HAULED>
+  <RimMetrics.StatTypes.PAWN_PLANTS_SOWN>Pawn plants sown</RimMetrics.StatTypes.PAWN_PLANTS_SOWN>
+  <RimMetrics.StatTypes.PAWN_PLANTS_HARVESTED>Pawn plants harvested</RimMetrics.StatTypes.PAWN_PLANTS_HARVESTED>
+  <RimMetrics.StatTypes.PAWN_CELLS_MINED_BY_ITEM>Pawn cells mined by item</RimMetrics.StatTypes.PAWN_CELLS_MINED_BY_ITEM>
+  <RimMetrics.StatTypes.PAWN_TIMES_FISHED>Pawn times fished</RimMetrics.StatTypes.PAWN_TIMES_FISHED>
+  <RimMetrics.StatTypes.PAWN_FISH_CAUGHT>Pawn fish caught</RimMetrics.StatTypes.PAWN_FISH_CAUGHT>
+  <RimMetrics.StatTypes.PAWN_CELLS_MINED>Pawn cells mined</RimMetrics.StatTypes.PAWN_CELLS_MINED>
+  <RimMetrics.StatTypes.PAWN_MESSES_CLEANED>Pawn messes cleaned</RimMetrics.StatTypes.PAWN_MESSES_CLEANED>
+  <RimMetrics.StatTypes.PAWN_RESEARCH_POINTS_RESEARCHED>Pawn research points researched</RimMetrics.StatTypes.PAWN_RESEARCH_POINTS_RESEARCHED>
+  <RimMetrics.StatTypes.PAWN_RESEARCH_SESSIONS>Pawn research sessions started</RimMetrics.StatTypes.PAWN_RESEARCH_SESSIONS>
+  <RimMetrics.StatTypes.PAWN_CORPSES_BURIED>Pawn corpses buried</RimMetrics.StatTypes.PAWN_CORPSES_BURIED>
+  <RimMetrics.StatTypes.PAWN_NUTRITION_EATEN>Pawn nutrition eaten</RimMetrics.StatTypes.PAWN_NUTRITION_EATEN>
+  <RimMetrics.StatTypes.PAWN_BODIES_STRIPPED>Pawn bodies stripped</RimMetrics.StatTypes.PAWN_BODIES_STRIPPED>
+  <RimMetrics.StatTypes.PAWN_THINGS_UNINSTALLED>Pawn things uninstalled</RimMetrics.StatTypes.PAWN_THINGS_UNINSTALLED>
+  <RimMetrics.StatTypes.PAWN_ARTIFACTS_ACTIVATED>Pawn artifacts activated</RimMetrics.StatTypes.PAWN_ARTIFACTS_ACTIVATED>
+  <RimMetrics.StatTypes.PAWN_CONTAINERS_OPENED>Pawn containers opened</RimMetrics.StatTypes.PAWN_CONTAINERS_OPENED>
+  <RimMetrics.StatTypes.PAWN_SWITCHES_FLICKED>Pawn switches flicked</RimMetrics.StatTypes.PAWN_SWITCHES_FLICKED>
+  <RimMetrics.StatTypes.PAWN_TIME_AS_CHILD_IN_COLONY>Pawn time as child in community</RimMetrics.StatTypes.PAWN_TIME_AS_CHILD_IN_COLONY>
+  <RimMetrics.StatTypes.PAWN_TIME_AS_COLONIST_OR_COLONY_ANIMAL>Pawn time as a colonist</RimMetrics.StatTypes.PAWN_TIME_AS_COLONIST_OR_COLONY_ANIMAL>
+  <RimMetrics.StatTypes.PAWN_TIME_AS_QUEST_LODGER>Pawn time hosted</RimMetrics.StatTypes.PAWN_TIME_AS_QUEST_LODGER>
+  <RimMetrics.StatTypes.PAWN_TIME_AS_PRISONER>Pawn time as a prisoner</RimMetrics.StatTypes.PAWN_TIME_AS_PRISONER>
+  <RimMetrics.StatTypes.PAWN_TIME_IN_BED>Pawn time in a bed</RimMetrics.StatTypes.PAWN_TIME_IN_BED>
+  <RimMetrics.StatTypes.PAWN_TIME_IN_BED_FOR_MEDICAL_REASONS>Pawn time in a bed for medical reasons</RimMetrics.StatTypes.PAWN_TIME_IN_BED_FOR_MEDICAL_REASONS>
+  <RimMetrics.StatTypes.PAWN_TIME_DOWNED>Pawn time downed</RimMetrics.StatTypes.PAWN_TIME_DOWNED>
+  <RimMetrics.StatTypes.PAWN_TIME_GETTING_FOOD>Pawn time finding food and eating</RimMetrics.StatTypes.PAWN_TIME_GETTING_FOOD>
+  <RimMetrics.StatTypes.PAWN_TIME_GETTING_JOY>Pawn time spent on entertainment</RimMetrics.StatTypes.PAWN_TIME_GETTING_JOY>
+  <RimMetrics.StatTypes.PAWN_TIME_UNDER_ROOF>Pawn time under a roof</RimMetrics.StatTypes.PAWN_TIME_UNDER_ROOF>
+  <RimMetrics.StatTypes.PAWN_DRAFTED>Pawn times drafted</RimMetrics.StatTypes.PAWN_DRAFTED>
+  <RimMetrics.StatTypes.PAWN_TIME_DRAFTED>Pawn time drafted</RimMetrics.StatTypes.PAWN_TIME_DRAFTED>
+  <RimMetrics.StatTypes.PAWN_TIME_ON_FIRE>Pawn time on fire</RimMetrics.StatTypes.PAWN_TIME_ON_FIRE>
+  <RimMetrics.StatTypes.PAWN_TIME_IN_MENTAL_STATE>Pawn time in mental state</RimMetrics.StatTypes.PAWN_TIME_IN_MENTAL_STATE>
+  <RimMetrics.StatTypes.PAWN_TIME_HAULING>Pawn time hauling</RimMetrics.StatTypes.PAWN_TIME_HAULING>
+  <RimMetrics.StatTypes.PAWN_TIME_HANDLING_ANIMALS>Pawn time handling animals</RimMetrics.StatTypes.PAWN_TIME_HANDLING_ANIMALS>
+  <RimMetrics.StatTypes.PAWN_TIME_FIREFIGHTING>Pawn time firefighting</RimMetrics.StatTypes.PAWN_TIME_FIREFIGHTING>
+  <RimMetrics.StatTypes.PAWN_TIME_WARDENING>Pawn time wardening</RimMetrics.StatTypes.PAWN_TIME_WARDENING>
+  <RimMetrics.StatTypes.PAWN_TIME_HUNTING>Pawn time hunting</RimMetrics.StatTypes.PAWN_TIME_HUNTING>
+  <RimMetrics.StatTypes.PAWN_TIME_CONSTRUCTING>Pawn time constructing</RimMetrics.StatTypes.PAWN_TIME_CONSTRUCTING>
+  <RimMetrics.StatTypes.PAWN_TIME_TREATING_AND_FEEDING>Pawn time treating and feeding</RimMetrics.StatTypes.PAWN_TIME_TREATING_AND_FEEDING>
+  <RimMetrics.StatTypes.PAWN_TIME_RESEARCHING>Pawn time researching</RimMetrics.StatTypes.PAWN_TIME_RESEARCHING>
+  <RimMetrics.StatTypes.PAWN_TIME_CLEANING>Pawn time cleaning</RimMetrics.StatTypes.PAWN_TIME_CLEANING>
+  <RimMetrics.StatTypes.PAWN_TIME_REPAIRING>Pawn time repairing</RimMetrics.StatTypes.PAWN_TIME_REPAIRING>
+  <RimMetrics.StatTypes.PAWN_TIME_MINING>Pawn time mining</RimMetrics.StatTypes.PAWN_TIME_MINING>
+  <RimMetrics.StatTypes.PAWN_TIME_SOWING_AND_HARVESTING>Pawn time sowing and harvesting</RimMetrics.StatTypes.PAWN_TIME_SOWING_AND_HARVESTING>
+  <RimMetrics.StatTypes.PAWN_DISEASES_CONTRACTED>Pawn diseases contracted</RimMetrics.StatTypes.PAWN_DISEASES_CONTRACTED>
+  <RimMetrics.StatTypes.PAWN_DISEASES_RECOVERED>Pawn diseases recovered</RimMetrics.StatTypes.PAWN_DISEASES_RECOVERED>
+  <RimMetrics.StatTypes.PAWN_SOCIAL_FIGHTS>Pawn social fights</RimMetrics.StatTypes.PAWN_SOCIAL_FIGHTS>
+  <RimMetrics.StatTypes.PAWN_SOCIAL_INTERACTIONS>Pawn social interactions</RimMetrics.StatTypes.PAWN_SOCIAL_INTERACTIONS>
+  <RimMetrics.StatTypes.PAWN_SOCIAL_INTERACTIONS_BY_TYPE>Pawn social interactions by type</RimMetrics.StatTypes.PAWN_SOCIAL_INTERACTIONS_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TIMES_IN_MENTAL_STATE_BY_TYPE>Pawn times in mental state by type</RimMetrics.StatTypes.PAWN_TIMES_IN_MENTAL_STATE_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_PEOPLE_CONVERTED>Pawn people converted</RimMetrics.StatTypes.PAWN_PEOPLE_CONVERTED>
+  <RimMetrics.StatTypes.PAWN_CARAVANS_JOINED>Pawn caravans joined</RimMetrics.StatTypes.PAWN_CARAVANS_JOINED>
+  <RimMetrics.StatTypes.PAWN_NEGOTIATED_TRADES>Pawn negotiated trades</RimMetrics.StatTypes.PAWN_NEGOTIATED_TRADES>
+  <RimMetrics.StatTypes.PAWN_ITEMS_BOUGHT_BY_TYPE>Pawn items bought by type</RimMetrics.StatTypes.PAWN_ITEMS_BOUGHT_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_ITEMS_SOLD_BY_TYPE>Pawn items sold by type</RimMetrics.StatTypes.PAWN_ITEMS_SOLD_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TRADE_PROFIT>Pawn trade profit</RimMetrics.StatTypes.PAWN_TRADE_PROFIT>
+  <RimMetrics.StatTypes.PAWN_TRADES_INITIATED>Pawn trades initiated</RimMetrics.StatTypes.PAWN_TRADES_INITIATED>
+  <RimMetrics.StatTypes.PAWN_TRADES_EARNED>Pawn trade earnings</RimMetrics.StatTypes.PAWN_TRADES_EARNED>
+  <RimMetrics.StatTypes.PAWN_TRADES_PAID>Pawn trade expenses</RimMetrics.StatTypes.PAWN_TRADES_PAID>
+  <RimMetrics.StatTypes.PAWN_INSPIRATIONS>Pawn inspirations</RimMetrics.StatTypes.PAWN_INSPIRATIONS>
+  <RimMetrics.StatTypes.PAWN_INSPIRATIONS_BY_TYPE>Pawn inspirations by type</RimMetrics.StatTypes.PAWN_INSPIRATIONS_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_RITUALS_ATTENDED>Pawn rituals attended</RimMetrics.StatTypes.PAWN_RITUALS_ATTENDED>
+  <RimMetrics.StatTypes.PAWN_RITUALS_ATTENDED_BY_TYPE>Pawn rituals attended by type</RimMetrics.StatTypes.PAWN_RITUALS_ATTENDED_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_RESCUES_PERFORMED>Pawn rescues performed</RimMetrics.StatTypes.PAWN_RESCUES_PERFORMED>
+  <RimMetrics.StatTypes.PAWN_RESCUES_RECEIVED>Pawn rescues received</RimMetrics.StatTypes.PAWN_RESCUES_RECEIVED>
+  <RimMetrics.StatTypes.PAWN_FRIENDLY_FIRE>Pawn friendly fire damage</RimMetrics.StatTypes.PAWN_FRIENDLY_FIRE>
+  <RimMetrics.StatTypes.PAWN_FRIENDLY_FIRE_HITS>Pawn friendly fire hits</RimMetrics.StatTypes.PAWN_FRIENDLY_FIRE_HITS>
+  <RimMetrics.StatTypes.PAWN_MEALS_AT_TABLE>Pawn meals at table</RimMetrics.StatTypes.PAWN_MEALS_AT_TABLE>
+  <RimMetrics.StatTypes.PAWN_MEALS_WITHOUT_TABLE>Pawn meals without table</RimMetrics.StatTypes.PAWN_MEALS_WITHOUT_TABLE>
+  <RimMetrics.StatTypes.PAWN_NEAR_DEATH_EVENTS>Pawn near-death events (bleeding)</RimMetrics.StatTypes.PAWN_NEAR_DEATH_EVENTS>
+  <RimMetrics.StatTypes.PAWN_DAYS_SICK>Pawn days sick</RimMetrics.StatTypes.PAWN_DAYS_SICK>
+  <RimMetrics.StatTypes.PAWN_WALLS_BUILT>Pawn walls built</RimMetrics.StatTypes.PAWN_WALLS_BUILT>
+  <RimMetrics.StatTypes.PAWN_FLOORS_LAID>Pawn floors laid</RimMetrics.StatTypes.PAWN_FLOORS_LAID>
+  <RimMetrics.StatTypes.PAWN_FLOORS_LAID_BY_TYPE>Pawn floors laid by type</RimMetrics.StatTypes.PAWN_FLOORS_LAID_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_FLOORS_SMOOTHED>Pawn floors smoothed</RimMetrics.StatTypes.PAWN_FLOORS_SMOOTHED>
+  <RimMetrics.StatTypes.PAWN_WALLS_SMOOTHED>Pawn walls smoothed</RimMetrics.StatTypes.PAWN_WALLS_SMOOTHED>
+  <RimMetrics.StatTypes.PAWN_NUTRITION_PRODUCED>Pawn nutrition produced</RimMetrics.StatTypes.PAWN_NUTRITION_PRODUCED>
+  <RimMetrics.StatTypes.PAWN_PLANTS_CUT_BY_TYPE>Pawn plants cut by type</RimMetrics.StatTypes.PAWN_PLANTS_CUT_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_TREES_CHOPPED>Pawn trees chopped</RimMetrics.StatTypes.PAWN_TREES_CHOPPED>
+  <RimMetrics.StatTypes.PAWN_PLANTS_CUT>Pawn plants cut</RimMetrics.StatTypes.PAWN_PLANTS_CUT>
+  <RimMetrics.StatTypes.PAWN_BLIGHTED_PLANTS_CUT>Pawn blighted plants cut</RimMetrics.StatTypes.PAWN_BLIGHTED_PLANTS_CUT>
+  <RimMetrics.StatTypes.PAWN_SKILL_LEVELS_GAINED>Pawn skill levels gained</RimMetrics.StatTypes.PAWN_SKILL_LEVELS_GAINED>
+  <RimMetrics.StatTypes.PAWN_GENES_GAINED>Pawn genes gained</RimMetrics.StatTypes.PAWN_GENES_GAINED>
+  <RimMetrics.StatTypes.PAWN_GENES_GAINED_BY_TYPE>Pawn genes gained by type</RimMetrics.StatTypes.PAWN_GENES_GAINED_BY_TYPE>
+</LanguageData>

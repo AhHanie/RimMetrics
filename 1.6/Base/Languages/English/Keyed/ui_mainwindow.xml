@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <RimMetrics.UI.Tab.ColonistStats>Colonist Stats Viewer</RimMetrics.UI.Tab.ColonistStats>
+  <RimMetrics.UI.Tab.PlaceholderOne>Tab 2</RimMetrics.UI.Tab.PlaceholderOne>
+  <RimMetrics.UI.Tab.PlaceholderTwo>Tab 3</RimMetrics.UI.Tab.PlaceholderTwo>
+  <RimMetrics.UI.ComingSoon>{0} - Coming soon</RimMetrics.UI.ComingSoon>
+  <RimMetrics.UI.SelectPawn>Select Pawn:</RimMetrics.UI.SelectPawn>
+  <RimMetrics.UI.SelectColonist>Select colonist</RimMetrics.UI.SelectColonist>
+  <RimMetrics.UI.NoColonistsFound>No colonists found</RimMetrics.UI.NoColonistsFound>
+  <RimMetrics.UI.TopStatsWaiting>Top stats will calculate at the start of the next day.</RimMetrics.UI.TopStatsWaiting>
+  <RimMetrics.UI.GroupedStatsWaiting>Stats will calculate at the start of the next day.</RimMetrics.UI.GroupedStatsWaiting>
+  <RimMetrics.UI.RefreshStats>Refresh Stats</RimMetrics.UI.RefreshStats>
+  <RimMetrics.UI.SelectColonistToView>Select a colonist to view stats.</RimMetrics.UI.SelectColonistToView>
+  <RimMetrics.UI.CollapseAll>Collapse All</RimMetrics.UI.CollapseAll>
+  <RimMetrics.UI.ExpandAll>Expand All</RimMetrics.UI.ExpandAll>
+  <RimMetrics.UI.Search>Search</RimMetrics.UI.Search>
+  <RimMetrics.UI.TopStats>Top Stats</RimMetrics.UI.TopStats>
+  <RimMetrics.UI.TopStatsTooltip>Top stats are calculated once each in-game day.\n\nSix top stats are selected randomly to be displayed here. A colonist is considered top in their stat if they're first, second, or third, as denoted by the star color.</RimMetrics.UI.TopStatsTooltip>
+  <RimMetrics.UI.StatsListSearchTooltip>Stats are calculated once each in-game day.\n\nUse the search bar to filter stats by label.</RimMetrics.UI.StatsListSearchTooltip>
+  <RimMetrics.UI.CategoryStatsCount>({0} stats)</RimMetrics.UI.CategoryStatsCount>
+  <RimMetrics.UI.GroupCount>({0})</RimMetrics.UI.GroupCount>
+</LanguageData>

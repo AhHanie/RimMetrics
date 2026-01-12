@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimMetrics.StatCategories.COMBAT>Combat</RimMetrics.StatCategories.COMBAT>
+  <RimMetrics.StatCategories.DAMAGE_DEFENSE>Damage &amp; Defense</RimMetrics.StatCategories.DAMAGE_DEFENSE>
+  <RimMetrics.StatCategories.EQUIPMENT>Equipment</RimMetrics.StatCategories.EQUIPMENT>
+  <RimMetrics.StatCategories.CRAFTING_PRODUCTION>Crafting &amp; Production</RimMetrics.StatCategories.CRAFTING_PRODUCTION>
+  <RimMetrics.StatCategories.CONSTRUCTION>Construction</RimMetrics.StatCategories.CONSTRUCTION>
+  <RimMetrics.StatCategories.WORK_LABOR>Work &amp; Labor</RimMetrics.StatCategories.WORK_LABOR>
+  <RimMetrics.StatCategories.ANIMALS>Animals</RimMetrics.StatCategories.ANIMALS>
+  <RimMetrics.StatCategories.MEDICAL_HEALTH>Medical &amp; Health</RimMetrics.StatCategories.MEDICAL_HEALTH>
+  <RimMetrics.StatCategories.SOCIAL_IDEOLOGY>Social &amp; Ideology</RimMetrics.StatCategories.SOCIAL_IDEOLOGY>
+  <RimMetrics.StatCategories.MENTAL_MOOD>Mental &amp; Mood</RimMetrics.StatCategories.MENTAL_MOOD>
+  <RimMetrics.StatCategories.RITUALS_ABILITIES>Rituals &amp; Abilities</RimMetrics.StatCategories.RITUALS_ABILITIES>
+  <RimMetrics.StatCategories.RESEARCH>Research</RimMetrics.StatCategories.RESEARCH>
+  <RimMetrics.StatCategories.ECONOMY_TRADE>Economy &amp; Trade</RimMetrics.StatCategories.ECONOMY_TRADE>
+  <RimMetrics.StatCategories.TRAVEL_MOVEMENT>Travel &amp; Movement</RimMetrics.StatCategories.TRAVEL_MOVEMENT>
+  <RimMetrics.StatCategories.NEEDS_SURVIVAL>Needs &amp; Survival</RimMetrics.StatCategories.NEEDS_SURVIVAL>
+  <RimMetrics.StatCategories.TIME_ACTIVITY>Time &amp; Activity</RimMetrics.StatCategories.TIME_ACTIVITY>
+  <RimMetrics.StatCategories.MISC_EVENTS>Misc Events</RimMetrics.StatCategories.MISC_EVENTS>
+</LanguageData>

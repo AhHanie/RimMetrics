@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>RimMetrics_MainButtonsMenu</defName>
+    <label>Rim Metrics</label>
+    <description>Colony metrics.</description>
+    <tabWindowClass>RimMetrics.MainTabWindow_RimMetrics</tabWindowClass>
+    <order>499</order>
+  </MainButtonDef>
+</Defs>

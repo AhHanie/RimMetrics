@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimMetrics.SettingsTitle>RimMetrics</RimMetrics.SettingsTitle>
+  <RimMetrics.Settings.OnlyTrackPlayerColonists>Only track player colonists</RimMetrics.Settings.OnlyTrackPlayerColonists>
+  <RimMetrics.Settings.OverrideRecordsTabWithStats>Show RimMetrics stats on pawn Records tab</RimMetrics.Settings.OverrideRecordsTabWithStats>
+  <RimMetrics.Settings.RestartRequiredNotice>Some settings require a game restart to take effect.</RimMetrics.Settings.RestartRequiredNotice>
+  <RimMetrics.Settings.CompatHeader>Compatibility Mods</RimMetrics.Settings.CompatHeader>
+  <RimMetrics.Settings.CompatHeaderTooltip>These mods registered new stats to be calculated and displayed.</RimMetrics.Settings.CompatHeaderTooltip>
+  <RimMetrics.Settings.CompatNone>None detected.</RimMetrics.Settings.CompatNone>
+</LanguageData>

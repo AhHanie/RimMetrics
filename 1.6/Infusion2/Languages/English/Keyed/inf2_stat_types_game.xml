@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimMetrics.StatTypes.GAME_TOTAL_INFUSED_WEAPONS_EQUIPPED>Game infused weapons equipped (total)</RimMetrics.StatTypes.GAME_TOTAL_INFUSED_WEAPONS_EQUIPPED>
+  <RimMetrics.StatTypes.GAME_TOTAL_INFUSED_APPAREL_EQUIPPED>Game infused apparel equipped (total)</RimMetrics.StatTypes.GAME_TOTAL_INFUSED_APPAREL_EQUIPPED>
+  <RimMetrics.StatTypes.GAME_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TYPE>Game infused weapons equipped by infusion</RimMetrics.StatTypes.GAME_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TYPE>Game infused apparel equipped by infusion</RimMetrics.StatTypes.GAME_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TIER>Game infused weapons equipped by tier</RimMetrics.StatTypes.GAME_TOTAL_INFUSED_WEAPONS_EQUIPPED_BY_TIER>
+  <RimMetrics.StatTypes.GAME_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TIER>Game infused apparel equipped by tier</RimMetrics.StatTypes.GAME_TOTAL_INFUSED_APPAREL_EQUIPPED_BY_TIER>
+  <RimMetrics.StatTypes.GAME_INFUSION_EFFECTS_ACTIVATED>Game infusion effects activated</RimMetrics.StatTypes.GAME_INFUSION_EFFECTS_ACTIVATED>
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RimMetrics", "RimMetrics.csproj", "{A9F668A7-F97A-4729-8BB9-A051651E712A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "..\..\..\Rimworld Source Code\Assembly-CSharp.csproj", "{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F668A7-F97A-4729-8BB9-A051651E712A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F668A7-F97A-4729-8BB9-A051651E712A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F668A7-F97A-4729-8BB9-A051651E712A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F668A7-F97A-4729-8BB9-A051651E712A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099C3C21-09B7-F386-6DDE-1D91E1CF87F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {587279C0-789E-4916-8422-B37D7AAB2215}
+	EndGlobalSection
+EndGlobal
