@@ -205,7 +205,7 @@ namespace RimMetrics
                 calculatorType: typeof(GameTradeProfitStatProvider),
                 autoRegisterGameStat: false);
             Register(StatIds.GAME_TOTAL_INCIDENTS, StatCategory.MISC_EVENTS, statType: StatType.GAME, autoRegisterGameStat: false);
-            Register(StatIds.GAME_TOTAL_INCIDENTS_BY_TYPE, StatCategory.MISC_EVENTS, statType: StatType.GAME, hasKey: true, autoRegisterGameStat: false);
+            Register(StatIds.GAME_TOTAL_INCIDENTS_BY_TYPE, StatCategory.MISC_EVENTS, statType: StatType.GAME, hasKey: true, iconSelectorType: typeof(SimpleIconSelector), autoRegisterGameStat: false);
             Register(StatIds.GAME_TOTAL_RAIDS, StatCategory.COMBAT, statType: StatType.GAME, autoRegisterGameStat: false);
             Register(StatIds.GAME_COLONISTS_JOINED, StatCategory.SOCIAL_IDEOLOGY, statType: StatType.GAME, autoRegisterGameStat: false);
             Register(StatIds.GAME_COLONISTS_LOST, StatCategory.SOCIAL_IDEOLOGY, statType: StatType.GAME, autoRegisterGameStat: false);

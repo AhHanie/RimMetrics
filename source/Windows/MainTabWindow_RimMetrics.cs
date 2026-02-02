@@ -11,7 +11,7 @@ namespace RimMetrics
         private enum RimMetricsTab
         {
             ColonistStatsViewer,
-            PlaceholderOne,
+            GameStatsViewer,
             PlaceholderTwo
         }
 
@@ -26,11 +26,13 @@ namespace RimMetrics
         private Pawn selectedPawn;
         private readonly TopStatsPanel topStatsPanel = new TopStatsPanel();
         private readonly StatsListPanel statsListPanel = new StatsListPanel();
+        private readonly GameStatsListPanel gameStatsListPanel = new GameStatsListPanel();
 
         public override void PostOpen()
         {
             base.PostOpen();
             statsListPanel.ResetScrollPosition();
+            gameStatsListPanel.ResetScrollPosition();
             topStatsPanel.RefreshSelection(selectedPawn);
         }
 
@@ -45,7 +47,7 @@ namespace RimMetrics
             var tabs = new List<TabRecord>
             {
                 new TabRecord("RimMetrics.UI.Tab.ColonistStats".Translate(), () => currentTab = RimMetricsTab.ColonistStatsViewer, currentTab == RimMetricsTab.ColonistStatsViewer),
-                new TabRecord("RimMetrics.UI.Tab.PlaceholderOne".Translate(), () => currentTab = RimMetricsTab.PlaceholderOne, currentTab == RimMetricsTab.PlaceholderOne),
+                new TabRecord("RimMetrics.UI.Tab.GameStats".Translate(), () => currentTab = RimMetricsTab.GameStatsViewer, currentTab == RimMetricsTab.GameStatsViewer),
                 new TabRecord("RimMetrics.UI.Tab.PlaceholderTwo".Translate(), () => currentTab = RimMetricsTab.PlaceholderTwo, currentTab == RimMetricsTab.PlaceholderTwo)
             };
 
@@ -58,8 +60,8 @@ namespace RimMetrics
                 case RimMetricsTab.ColonistStatsViewer:
                     DrawColonistStatsViewer(contentRect);
                     break;
-                case RimMetricsTab.PlaceholderOne:
-                    DrawPlaceholder(contentRect, "RimMetrics.UI.Tab.PlaceholderOne".Translate());
+                case RimMetricsTab.GameStatsViewer:
+                    DrawGameStatsViewer(contentRect);
                     break;
                 case RimMetricsTab.PlaceholderTwo:
                     DrawPlaceholder(contentRect, "RimMetrics.UI.Tab.PlaceholderTwo".Translate());
@@ -109,6 +111,21 @@ namespace RimMetrics
 
             var listRect = new Rect(rect.x, rect.y + topSectionHeight, rect.width, rect.height - topSectionHeight);
             statsListPanel.Draw(listRect, selectedPawn);
+        }
+
+        private void DrawGameStatsViewer(Rect rect)
+        {
+            var buttonHeight = 30f;
+            var buttonWidth = 140f;
+            var refreshRect = new Rect(rect.xMax - buttonWidth, rect.y, buttonWidth, buttonHeight);
+            if (Widgets.ButtonText(refreshRect, "RimMetrics.UI.RefreshStats".Translate()))
+            {
+                Current.Game?.GetComponent<GameComponent_GameStats>()?.ForceRefreshGameGroupedStats();
+                gameStatsListPanel.ResetScrollPosition();
+            }
+
+            var listRect = new Rect(rect.x, rect.y + buttonHeight + SectionSpacing, rect.width, rect.height - buttonHeight - SectionSpacing);
+            gameStatsListPanel.Draw(listRect);
         }
 
         private void EnsureSelectedPawn()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <RimMetrics.UI.Tab.ColonistStats>Colonist Stats Viewer</RimMetrics.UI.Tab.ColonistStats>
-  <RimMetrics.UI.Tab.PlaceholderOne>Tab 2</RimMetrics.UI.Tab.PlaceholderOne>
+  <RimMetrics.UI.Tab.GameStats>Game Stats</RimMetrics.UI.Tab.GameStats>
   <RimMetrics.UI.Tab.PlaceholderTwo>Tab 3</RimMetrics.UI.Tab.PlaceholderTwo>
   <RimMetrics.UI.ComingSoon>{0} - Coming soon</RimMetrics.UI.ComingSoon>
   <RimMetrics.UI.SelectPawn>Select Pawn:</RimMetrics.UI.SelectPawn>
@@ -19,4 +19,5 @@
   <RimMetrics.UI.StatsListSearchTooltip>Stats are calculated once each in-game day.\n\nUse the search bar to filter stats by label.</RimMetrics.UI.StatsListSearchTooltip>
   <RimMetrics.UI.CategoryStatsCount>({0} stats)</RimMetrics.UI.CategoryStatsCount>
   <RimMetrics.UI.GroupCount>({0})</RimMetrics.UI.GroupCount>
+  <RimMetrics.UI.GameStatsSourceHint>Many game stats are summed up from individual colonist pawn stats.</RimMetrics.UI.GameStatsSourceHint>
 </LanguageData>

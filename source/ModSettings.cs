@@ -9,8 +9,8 @@ namespace RimMetrics
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref OnlyTrackPlayerColonists, "rimMetricsOnlyTrackPlayerColonists", true);
-            Scribe_Values.Look(ref OverrideRecordsTabWithStats, "rimMetricsOverrideRecordsTabWithStats", true);
+            Scribe_Values.Look(ref OnlyTrackPlayerColonists, "onlyTrackPlayerColonists", true);
+            Scribe_Values.Look(ref OverrideRecordsTabWithStats, "overrideRecordsTabWithStats", true);
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using RimMetrics;
 using RimMetrics.Helpers;
 using RimWorld;
 using Verse;
@@ -13,6 +14,8 @@ namespace RimMetrics.Components
         private List<ColonistTopStats> colonistTopStats = new List<ColonistTopStats>();
         private List<PawnGroupedStats> colonistGroupedStats = new List<PawnGroupedStats>();
         private int groupedStatsDay = -1;
+        private List<StatsGroupingService.CategoryGroup> gameGroupedStats = new List<StatsGroupingService.CategoryGroup>();
+        private int gameGroupedStatsDay = -1;
         private int version = CurrentVersion;
 
         public GameComponent_GameStats(Game game)
@@ -21,6 +24,7 @@ namespace RimMetrics.Components
 
         public IReadOnlyDictionary<StatKey, StatRecord> All => stats;
         public IReadOnlyList<ColonistTopStats> ColonistTopStats => colonistTopStats;
+        public IReadOnlyList<StatsGroupingService.CategoryGroup> GameGroupedStats => gameGroupedStats;
 
         public override void GameComponentTick()
         {
@@ -31,6 +35,7 @@ namespace RimMetrics.Components
 
             UpdateColonistTopStats();
             UpdateColonistGroupedStats();
+            UpdateGameGroupedStats();
         }
 
         public bool TryGetKeyedStats(string typeId, out IReadOnlyDictionary<string, StatRecord> records)
@@ -76,9 +81,32 @@ namespace RimMetrics.Components
             return colonistGroupedStats.Count == 0 && groupedStatsDay != GenDate.DaysPassed;
         }
 
+        public bool TryGetGameGroupedStats(out List<StatsGroupingService.CategoryGroup> groupedStats)
+        {
+            groupedStats = null;
+            EnsureGameGroupedStatsCache();
+            if (gameGroupedStats == null)
+            {
+                return false;
+            }
+
+            groupedStats = gameGroupedStats;
+            return true;
+        }
+
+        public bool IsWaitingForGameGroupedStats()
+        {
+            return gameGroupedStats.Count == 0 && gameGroupedStatsDay != GenDate.DaysPassed;
+        }
+
         public void ForceRefreshGroupedStats()
         {
             UpdateColonistGroupedStats();
+        }
+
+        public void ForceRefreshGameGroupedStats()
+        {
+            UpdateGameGroupedStats();
         }
 
         public void IncrementTotalInt(string typeId, int amount = 1)
@@ -169,6 +197,8 @@ namespace RimMetrics.Components
             Scribe_Collections.Look(ref colonistTopStats, "rimMetricsColonistTopStats", LookMode.Deep);
             Scribe_Collections.Look(ref colonistGroupedStats, "rimMetricsColonistGroupedStats", LookMode.Deep);
             Scribe_Values.Look(ref groupedStatsDay, "rimMetricsGroupedStatsDay", -1);
+            Scribe_Collections.Look(ref gameGroupedStats, "rimMetricsGameGroupedStats", LookMode.Deep);
+            Scribe_Values.Look(ref gameGroupedStatsDay, "rimMetricsGameGroupedStatsDay", -1);
             if (Scribe.mode == LoadSaveMode.Saving)
             {
                 var entries = new List<StatEntry>(stats.Count);
@@ -215,6 +245,10 @@ namespace RimMetrics.Components
             {
                 colonistGroupedStats = new List<PawnGroupedStats>();
             }
+            if (gameGroupedStats == null)
+            {
+                gameGroupedStats = new List<StatsGroupingService.CategoryGroup>();
+            }
 
             if (Scribe.mode == LoadSaveMode.LoadingVars)
             {
@@ -227,6 +261,8 @@ namespace RimMetrics.Components
 
                     StatsGroupingService.PopulateIconData(entry.Groups);
                 }
+
+                StatsGroupingService.PopulateIconData(gameGroupedStats);
             }
             RebuildKeyedStatsIndex();
             if (version <= 0)
@@ -281,6 +317,12 @@ namespace RimMetrics.Components
             }
         }
 
+        private void UpdateGameGroupedStats()
+        {
+            gameGroupedStatsDay = GenDate.DaysPassed;
+            gameGroupedStats = StatsGroupingService.BuildGroupedGameStats(this);
+        }
+
         private void EnsureGroupedStatsCache()
         {
             if (groupedStatsDay == GenDate.DaysPassed)
@@ -289,6 +331,16 @@ namespace RimMetrics.Components
             }
 
             UpdateColonistGroupedStats();
+        }
+
+        private void EnsureGameGroupedStatsCache()
+        {
+            if (gameGroupedStatsDay == GenDate.DaysPassed)
+            {
+                return;
+            }
+
+            UpdateGameGroupedStats();
         }
     }
 

@@ -182,6 +182,7 @@
     <Compile Include="Windows\\ValueTransformers\\TimeTicksValueTransformer.cs" />
     <Compile Include="Windows\\StatValueFormatter.cs" />
     <Compile Include="Windows\\StatsGroupingService.cs" />
+    <Compile Include="Windows\\GameStatsListPanel.cs" />
     <Compile Include="Windows\\StatsListPanel.cs" />
     <Compile Include="Windows\\TopStatsPanel.cs" />
   </ItemGroup>
