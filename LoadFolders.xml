@@ -3,6 +3,7 @@
   <v1.6>
     <li>1.6/Base</li>
     <li IfModActive="sk.infusion">1.6/Infusion2</li>
+    <li IfModActive="sk.inspiredunique">1.6/InspiredUnique</li>
     <li IfModActive="sk.weaponmastery">1.6/WeaponMastery</li>
     <li>/</li>
   </v1.6>

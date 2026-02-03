@@ -311,6 +311,42 @@ namespace RimMetrics
             Register(StatIds.PAWN_TIME_SOWING_AND_HARVESTING, StatCategory.TIME_ACTIVITY, source: StatSource.RecordDef, recordDefName: "TimeSowingAndHarvesting", valueTransformerType: typeof(TimeTicksValueTransformer));
             Register(StatIds.PAWN_DISEASES_CONTRACTED, StatCategory.MEDICAL_HEALTH);
             Register(StatIds.PAWN_DISEASES_RECOVERED, StatCategory.MEDICAL_HEALTH);
+            Register(StatIds.PAWN_DISEASES_CONTRACTED_BY_TYPE, StatCategory.MEDICAL_HEALTH, hasKey: true);
+            Register(
+                StatIds.PAWN_INFECTIONS_RECEIVED,
+                StatCategory.MEDICAL_HEALTH,
+                source: StatSource.CalculatedStat,
+                calculatorType: typeof(PawnInfectionsReceivedStatProvider),
+                autoRegisterGameStat: false);
+            Register(
+                StatIds.GAME_INFECTIONS_RECEIVED,
+                StatCategory.MEDICAL_HEALTH,
+                statType: StatType.GAME,
+                source: StatSource.CalculatedStat,
+                calculatorType: typeof(PawnInfectionsReceivedStatProvider),
+                autoRegisterGameStat: false);
+            Register(StatIds.PAWN_JOBS_STARTED, StatCategory.WORK_LABOR);
+            Register(StatIds.PAWN_JOBS_STARTED_BY_TYPE, StatCategory.WORK_LABOR, hasKey: true);
+            Register(StatIds.PAWN_JOBS_TOTAL_TIME_BY_TYPE, StatCategory.WORK_LABOR, hasKey: true, valueTransformerType: typeof(TimeTicksValueTransformer));
+            Register(
+                StatIds.PAWN_JOB_TIME_SHARE_BY_TYPE,
+                StatCategory.WORK_LABOR,
+                source: StatSource.CalculatedStat,
+                statValueType: StatValueType.Float,
+                hasKey: true,
+                calculatorType: typeof(JobTimeShareByTypeStatProvider),
+                valueTransformerType: typeof(PercentageValueTransformer),
+                autoRegisterGameStat: false);
+            Register(
+                StatIds.GAME_JOB_TIME_SHARE_BY_TYPE,
+                StatCategory.WORK_LABOR,
+                statType: StatType.GAME,
+                source: StatSource.CalculatedStat,
+                statValueType: StatValueType.Float,
+                hasKey: true,
+                calculatorType: typeof(JobTimeShareByTypeStatProvider),
+                valueTransformerType: typeof(PercentageValueTransformer),
+                autoRegisterGameStat: false);
             Register(StatIds.PAWN_SOCIAL_FIGHTS, StatCategory.SOCIAL_IDEOLOGY);
             Register(StatIds.PAWN_SOCIAL_INTERACTIONS, StatCategory.SOCIAL_IDEOLOGY);
             Register(StatIds.PAWN_SOCIAL_INTERACTIONS_BY_TYPE, StatCategory.SOCIAL_IDEOLOGY, hasKey: true);

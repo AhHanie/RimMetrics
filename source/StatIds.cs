@@ -28,6 +28,8 @@ namespace RimMetrics
         public const string GAME_SKILL_LEVELS_GAINED = "GAME_SKILL_LEVELS_GAINED";
         public const string GAME_GENES_GAINED = "GAME_GENES_GAINED";
         public const string GAME_GENES_GAINED_BY_TYPE = "GAME_GENES_GAINED_BY_TYPE";
+        public const string GAME_INFECTIONS_RECEIVED = "GAME_INFECTIONS_RECEIVED";
+        public const string GAME_JOB_TIME_SHARE_BY_TYPE = "GAME_JOB_TIME_SHARE_BY_TYPE";
         public const string PAWN_KILLS = "PAWN_KILLS";
         public const string PAWN_ITEMS_BOUGHT_BY_TYPE = "PAWN_ITEMS_BOUGHT_BY_TYPE";
         public const string PAWN_ITEMS_SOLD_BY_TYPE = "PAWN_ITEMS_SOLD_BY_TYPE";
@@ -156,6 +158,12 @@ namespace RimMetrics
         public const string PAWN_TIME_SOWING_AND_HARVESTING = "PAWN_TIME_SOWING_AND_HARVESTING";
         public const string PAWN_DISEASES_CONTRACTED = "PAWN_DISEASES_CONTRACTED";
         public const string PAWN_DISEASES_RECOVERED = "PAWN_DISEASES_RECOVERED";
+        public const string PAWN_DISEASES_CONTRACTED_BY_TYPE = "PAWN_DISEASES_CONTRACTED_BY_TYPE";
+        public const string PAWN_INFECTIONS_RECEIVED = "PAWN_INFECTIONS_RECEIVED";
+        public const string PAWN_JOBS_STARTED = "PAWN_JOBS_STARTED";
+        public const string PAWN_JOBS_STARTED_BY_TYPE = "PAWN_JOBS_STARTED_BY_TYPE";
+        public const string PAWN_JOBS_TOTAL_TIME_BY_TYPE = "PAWN_JOBS_TOTAL_TIME_BY_TYPE";
+        public const string PAWN_JOB_TIME_SHARE_BY_TYPE = "PAWN_JOB_TIME_SHARE_BY_TYPE";
         public const string PAWN_SOCIAL_FIGHTS = "PAWN_SOCIAL_FIGHTS";
         public const string PAWN_SOCIAL_INTERACTIONS = "PAWN_SOCIAL_INTERACTIONS";
         public const string PAWN_SOCIAL_INTERACTIONS_BY_TYPE = "PAWN_SOCIAL_INTERACTIONS_BY_TYPE";

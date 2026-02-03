@@ -89,6 +89,9 @@
     <Publicize Include="Assembly-CSharp:Verse.Pawn_DraftController.pawn" />
   </ItemGroup>
   <ItemGroup>
+    <Publicize Include="Assembly-CSharp:Verse.AI.Pawn_JobTracker.pawn" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="ModDefOf.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Logger.cs" />
@@ -97,6 +100,8 @@
     <Compile Include="Compat\ModCompat.cs" />
     <Compile Include="Compat\Infusion2\Infusion2Compat.cs" />
     <Compile Include="Compat\Infusion2\Infusion2CompatPatches.cs" />
+    <Compile Include="Compat\InspiredUnique\InspiredUniqueCompat.cs" />
+    <Compile Include="Compat\InspiredUnique\InspiredUniqueCompatPatches.cs" />
     <Compile Include="Compat\WeaponMastery\WeaponMasteryCompat.cs" />
     <Compile Include="Compat\WeaponMastery\WeaponMasteryCompatPatches.cs" />
     <Compile Include="Patches\GameFactionRelationStatsPatch.cs" />
@@ -134,6 +139,7 @@
     <Compile Include="Patches\PawnFishingStatsPatch.cs" />
     <Compile Include="Patches\PawnMiningYieldPatch.cs" />
     <Compile Include="Patches\PawnResearchStartedPatch.cs" />
+    <Compile Include="Patches\PawnJobStatsPatch.cs" />
     <Compile Include="Patches\PawnRescueStatsPatch.cs" />
     <Compile Include="Patches\PawnHitsCausingDownedPatch.cs" />
     <Compile Include="Patches\PawnMeleeAttacksPatch.cs" />
@@ -163,9 +169,13 @@
     <Compile Include="CalculatedStats\\ColonistRecordTotalStatProvider.cs" />
     <Compile Include="CalculatedStats\\GameTradeProfitStatProvider.cs" />
     <Compile Include="CalculatedStats\\GameShotsAccuracyAverageStatProvider.cs" />
+    <Compile Include="CalculatedStats\\ICalculatedKeyedStatProvider.cs" />
+    <Compile Include="CalculatedStats\\JobTimeShareByTypeStatProvider.cs" />
+    <Compile Include="CalculatedStats\\PawnInfectionsReceivedStatProvider.cs" />
     <Compile Include="CalculatedStats\\PawnTradeProfitStatProvider.cs" />
     <Compile Include="Helpers\\ColonistTopStatCalculator.cs" />
     <Compile Include="Helpers\\ResourcesAssets.cs" />
+    <Compile Include="Helpers\\JobUsageTracker.cs" />
     <Compile Include="Helpers\\StatValueFetcher.cs" />
     <Compile Include="Helpers\\WeaponUsageTracker.cs" />
     <Compile Include="ModSettings.cs" />
@@ -180,6 +190,7 @@
     <Compile Include="Windows\\ValueTransformers\\StatValueTransformer.cs" />
     <Compile Include="Windows\\ValueTransformers\\StatValueTransformerResolver.cs" />
     <Compile Include="Windows\\ValueTransformers\\TimeTicksValueTransformer.cs" />
+    <Compile Include="Windows\\ValueTransformers\\PercentageValueTransformer.cs" />
     <Compile Include="Windows\\StatValueFormatter.cs" />
     <Compile Include="Windows\\StatsGroupingService.cs" />
     <Compile Include="Windows\\GameStatsListPanel.cs" />

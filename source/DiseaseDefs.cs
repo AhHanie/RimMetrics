@@ -8,7 +8,7 @@ namespace RimMetrics
         private static readonly HashSet<string> BaseDiseaseDefNames = new HashSet<string>
         {
             "Flu",
-            "Infection",
+            "WoundInfection",
             "LungRot",
             "Malaria",
             "Plague",

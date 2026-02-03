@@ -278,7 +278,7 @@ namespace RimMetrics
             Dictionary<string, CategoryGroup> byCategory,
             List<CategoryGroup> results)
         {
-            if (!comp.TryGetKeyedStats(meta.TypeId, out var keyed) || keyed == null || keyed.Count == 0)
+            if (!TryGetKeyedPawnStats(comp, meta, out var keyedInt, out var keyedFloat))
             {
                 return;
             }
@@ -291,24 +291,39 @@ namespace RimMetrics
             }
 
             var rows = new List<StatRow>();
-            foreach (var pair in keyed)
+            if (meta.StatValueType == StatValueType.Float)
             {
-                var key = pair.Key;
-                var record = pair.Value;
-                if (record == null)
+                foreach (var pair in keyedFloat)
                 {
-                    continue;
-                }
+                    var key = pair.Key;
+                    var totalFloat = pair.Value;
+                    if (IsZeroValue(meta.StatValueType, 0, totalFloat))
+                    {
+                        continue;
+                    }
 
-                if (IsZeroValue(meta.StatValueType, record.TotalInt, record.TotalFloat))
+                    var label = StatStringHelper.ToKeyedString(meta.TypeId, key);
+                    var value = StatValueFormatter.FormatValue(meta.StatValueType, 0, totalFloat);
+                    var iconData = GetIconData(meta, key);
+                    rows.Add(new StatRow(meta.TypeId, key, label, value, meta.StatValueType, 0, totalFloat, iconData));
+                }
+            }
+            else
+            {
+                foreach (var pair in keyedInt)
                 {
-                    continue;
-                }
+                    var key = pair.Key;
+                    var totalInt = pair.Value;
+                    if (IsZeroValue(meta.StatValueType, totalInt, 0f))
+                    {
+                        continue;
+                    }
 
-                var label = StatStringHelper.ToKeyedString(meta.TypeId, key);
-                var value = StatValueFormatter.FormatValue(meta.StatValueType, record.TotalInt, record.TotalFloat);
-                var iconData = GetIconData(meta, key);
-                rows.Add(new StatRow(meta.TypeId, key, label, value, meta.StatValueType, record.TotalInt, record.TotalFloat, iconData));
+                    var label = StatStringHelper.ToKeyedString(meta.TypeId, key);
+                    var value = StatValueFormatter.FormatValue(meta.StatValueType, totalInt, 0f);
+                    var iconData = GetIconData(meta, key);
+                    rows.Add(new StatRow(meta.TypeId, key, label, value, meta.StatValueType, totalInt, 0f, iconData));
+                }
             }
 
             if (rows.Count > 0)
@@ -316,6 +331,65 @@ namespace RimMetrics
                 var groupLabel = StatStringHelper.ToKeyedString(meta.TypeId);
                 category.Groups[groupLabel] = rows;
             }
+        }
+
+        private static bool TryGetKeyedPawnStats(
+            Comp_PawnStats comp,
+            StatMeta meta,
+            out Dictionary<string, int> keyedInt,
+            out Dictionary<string, float> keyedFloat)
+        {
+            keyedInt = null;
+            keyedFloat = null;
+
+            if (meta.Source == StatSource.Manual)
+            {
+                if (!comp.TryGetKeyedStats(meta.TypeId, out var keyed) || keyed == null || keyed.Count == 0)
+                {
+                    return false;
+                }
+
+                if (meta.StatValueType == StatValueType.Float)
+                {
+                    keyedFloat = new Dictionary<string, float>(keyed.Count);
+                    foreach (var pair in keyed)
+                    {
+                        keyedFloat[pair.Key] = pair.Value?.TotalFloat ?? 0f;
+                    }
+                }
+                else
+                {
+                    keyedInt = new Dictionary<string, int>(keyed.Count);
+                    foreach (var pair in keyed)
+                    {
+                        keyedInt[pair.Key] = pair.Value?.TotalInt ?? 0;
+                    }
+                }
+
+                return true;
+            }
+
+            if (meta.Source == StatSource.CalculatedStat && meta.CalculatorType != null)
+            {
+                var provider = CalculatedStatProviderCache.GetOrCreate(meta.CalculatorType) as ICalculatedKeyedStatProvider;
+                if (provider == null)
+                {
+                    return false;
+                }
+
+                if (meta.StatValueType == StatValueType.Float)
+                {
+                    keyedFloat = provider.CalculateKeyedFloatTotals(meta.TypeId, comp);
+                }
+                else
+                {
+                    keyedInt = provider.CalculateKeyedIntTotals(meta.TypeId, comp);
+                }
+
+                return keyedInt != null || keyedFloat != null;
+            }
+
+            return false;
         }
 
         private static void AddKeyedGameStats(
@@ -417,6 +491,21 @@ namespace RimMetrics
 
             if (meta.Source == StatSource.CalculatedStat && meta.CalculatorType != null)
             {
+                var keyedProvider = CalculatedStatProviderCache.GetOrCreate(meta.CalculatorType) as ICalculatedKeyedStatProvider;
+                if (keyedProvider != null)
+                {
+                    if (meta.StatValueType == StatValueType.Float)
+                    {
+                        keyedFloat = keyedProvider.CalculateKeyedFloatTotals(meta.TypeId);
+                    }
+                    else
+                    {
+                        keyedInt = keyedProvider.CalculateKeyedIntTotals(meta.TypeId);
+                    }
+
+                    return keyedInt != null || keyedFloat != null;
+                }
+
                 var provider = CalculatedStatProviderCache.GetOrCreate(meta.CalculatorType) as ColonistManualKeyedTotalStatProvider;
                 if (provider == null)
                 {

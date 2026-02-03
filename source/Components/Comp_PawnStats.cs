@@ -21,6 +21,8 @@ namespace RimMetrics.Components
         private bool nearDeathBleedActive;
         private string cachedWeaponDefName;
         private int cachedWeaponUpdatedTick;
+        private string cachedJobDefName;
+        private int cachedJobUpdatedTick;
         private int version = CurrentVersion;
 
         public CompProperties_PawnStats Props => (CompProperties_PawnStats)props;
@@ -47,6 +49,18 @@ namespace RimMetrics.Components
         {
             get => cachedWeaponUpdatedTick;
             set => cachedWeaponUpdatedTick = value;
+        }
+
+        public string CachedJobDefName
+        {
+            get => cachedJobDefName;
+            set => cachedJobDefName = value;
+        }
+
+        public int CachedJobUpdatedTick
+        {
+            get => cachedJobUpdatedTick;
+            set => cachedJobUpdatedTick = value;
         }
 
         public void SetStat(string typeId, StatRecord record)
@@ -234,6 +248,8 @@ namespace RimMetrics.Components
             Scribe_Values.Look(ref nearDeathBleedActive, "nearDeathBleedActive");
             Scribe_Values.Look(ref cachedWeaponDefName, "cachedWeaponDefName");
             Scribe_Values.Look(ref cachedWeaponUpdatedTick, "cachedWeaponUpdatedTick");
+            Scribe_Values.Look(ref cachedJobDefName, "cachedJobDefName");
+            Scribe_Values.Look(ref cachedJobUpdatedTick, "cachedJobUpdatedTick");
             if (stats == null)
             {
                 stats = new Dictionary<StatKey, StatRecord>();
@@ -242,6 +258,10 @@ namespace RimMetrics.Components
             if (cachedWeaponDefName == null)
             {
                 cachedWeaponDefName = string.Empty;
+            }
+            if (cachedJobDefName == null)
+            {
+                cachedJobDefName = string.Empty;
             }
             if (version <= 0)
             {

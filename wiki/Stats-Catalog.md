@@ -44,7 +44,13 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `GAME_DAMAGE_TAKEN_BY_TYPE` | Game damage taken by type | Tracks game damage taken by type; keyed by type defName. |
 | `GAME_DAYS_SICK` | Game days sick | Tracks game days sick. |
 | `GAME_DISEASES_CONTRACTED` | Game diseases contracted | Tracks game diseases contracted. |
+| `GAME_DISEASES_CONTRACTED_BY_TYPE` | Game diseases contracted by type | Tracks game diseases contracted by type; keyed by hediff defName. |
 | `GAME_DISEASES_RECOVERED` | Game diseases recovered | Tracks game diseases recovered. |
+| `GAME_INFECTIONS_RECEIVED` | Game infections received | Tracks game infections received (derived from `GAME_DISEASES_CONTRACTED_BY_TYPE` with `WoundInfection`). |
+| `GAME_JOBS_STARTED` | Game jobs started | Tracks game jobs started. |
+| `GAME_JOBS_STARTED_BY_TYPE` | Game jobs started by type | Tracks game jobs started by type; keyed by job defName. |
+| `GAME_JOBS_TOTAL_TIME_BY_TYPE` | Game job time by type (ticks) | Tracks game job time by type (ticks); keyed by job defName. |
+| `GAME_JOB_TIME_SHARE_BY_TYPE` | Game job time share by type (%) | Tracks game job time share by type (%); derived from `GAME_JOBS_TOTAL_TIME_BY_TYPE`. |
 | `GAME_DOWNED` | Game downed | Tracks game downed. |
 | `GAME_DRAFTED` | Game times drafted | Tracks game times drafted. |
 | `GAME_FACTIONS_ALLIED` | Game factions allied | Tracks game factions allied. |
@@ -185,6 +191,7 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `GAME_WEAPONS_EQUIPPED_TOTAL` | Game weapons equipped (total) | Tracks game weapons equipped (total). |
 | `GAME_WEAPONS_UNEQUIPPED` | Game weapons unequipped | Tracks game weapons unequipped. |
 | `GAME_WEAPONS_UNEQUIPPED_TOTAL` | Game weapons unequipped (total) | Tracks game weapons unequipped (total). |
+| `GAME_UNIQUE_WEAPONS_INSPIRED` | Game unique weapons inspired | Tracks game unique weapons inspired. |
 | `PAWN_ABILITIES_CAST` | Pawn abilities cast | Tracks pawn abilities cast. |
 | `PAWN_ABILITIES_CAST_BY_TYPE` | Pawn abilities cast by type | Tracks pawn abilities cast by type; keyed by type defName. |
 | `PAWN_ANIMALS_SLAUGHTERED` | Pawn animals slaughtered | Tracks pawn animals slaughtered. |
@@ -218,7 +225,13 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `PAWN_DAMAGE_TAKEN_BY_TYPE` | Pawn damage taken by type | Tracks pawn damage taken by type; keyed by type defName. |
 | `PAWN_DAYS_SICK` | Pawn days sick | Tracks pawn days sick. |
 | `PAWN_DISEASES_CONTRACTED` | Pawn diseases contracted | Tracks pawn diseases contracted. |
+| `PAWN_DISEASES_CONTRACTED_BY_TYPE` | Pawn diseases contracted by type | Tracks pawn diseases contracted by type; keyed by hediff defName. |
 | `PAWN_DISEASES_RECOVERED` | Pawn diseases recovered | Tracks pawn diseases recovered. |
+| `PAWN_INFECTIONS_RECEIVED` | Pawn infections received | Tracks pawn infections received (derived from `PAWN_DISEASES_CONTRACTED_BY_TYPE` with `WoundInfection`). |
+| `PAWN_JOBS_STARTED` | Pawn jobs started | Tracks pawn jobs started. |
+| `PAWN_JOBS_STARTED_BY_TYPE` | Pawn jobs started by type | Tracks pawn jobs started by type; keyed by job defName. |
+| `PAWN_JOBS_TOTAL_TIME_BY_TYPE` | Pawn job time by type (ticks) | Tracks pawn job time by type (ticks); keyed by job defName. |
+| `PAWN_JOB_TIME_SHARE_BY_TYPE` | Pawn job time share by type (%) | Tracks pawn job time share by type (%); derived from `PAWN_JOBS_TOTAL_TIME_BY_TYPE`. |
 | `PAWN_DOWNED` | Pawn downed | Tracks pawn downed. |
 | `PAWN_DRAFTED` | Pawn times drafted | Tracks pawn times drafted. |
 | `PAWN_FIRES_EXTINGUISHED` | Pawn fires extinguished | Tracks pawn fires extinguished. |
@@ -344,6 +357,7 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `PAWN_WEAPONS_EQUIPPED_TOTAL` | Pawn weapons equipped (total) | Tracks pawn weapons equipped (total). |
 | `PAWN_WEAPONS_UNEQUIPPED` | Pawn weapons unequipped | Tracks pawn weapons unequipped. |
 | `PAWN_WEAPONS_UNEQUIPPED_TOTAL` | Pawn weapons unequipped (total) | Tracks pawn weapons unequipped (total). |
+| `PAWN_UNIQUE_WEAPONS_INSPIRED` | Pawn unique weapons inspired | Tracks pawn unique weapons inspired. |
 
 ## Infusion2
 

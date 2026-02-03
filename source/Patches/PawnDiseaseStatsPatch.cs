@@ -10,28 +10,18 @@ namespace RimMetrics.Patches
     {
         public static void Postfix(Pawn_HealthTracker __instance, Hediff hediff)
         {
-            if (hediff.def == null)
-            {
-                return;
-            }
-
             if (!DiseaseDefs.IsDisease(hediff.def))
             {
                 return;
             }
 
-            var pawn = __instance.pawn;
-            if (pawn == null)
-            {
-                return;
-            }
-
-            if (!pawn.TryGetComp(out Comp_PawnStats comp))
+            if (!__instance.pawn.TryGetComp(out Comp_PawnStats comp))
             {
                 return;
             }
 
             comp.IncrementTotalInt(StatIds.PAWN_DISEASES_CONTRACTED);
+            comp.IncrementTotalInt(StatIds.PAWN_DISEASES_CONTRACTED_BY_TYPE, hediff.def.defName);
         }
     }
 
@@ -40,23 +30,12 @@ namespace RimMetrics.Patches
     {
         public static void Postfix(Pawn_HealthTracker __instance, Hediff hediff)
         {
-            if (hediff.def == null)
-            {
-                return;
-            }
-
             if (!DiseaseDefs.IsDisease(hediff.def))
             {
                 return;
             }
 
-            var pawn = __instance.pawn;
-            if (pawn == null)
-            {
-                return;
-            }
-
-            if (!pawn.TryGetComp(out Comp_PawnStats comp))
+            if (!__instance.pawn.TryGetComp(out Comp_PawnStats comp))
             {
                 return;
             }
