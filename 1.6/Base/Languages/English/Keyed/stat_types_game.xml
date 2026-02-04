@@ -97,6 +97,8 @@
   <RimMetrics.StatTypes.GAME_ITEMS_BOUGHT_BY_TYPE>Game items bought by type</RimMetrics.StatTypes.GAME_ITEMS_BOUGHT_BY_TYPE>
   <RimMetrics.StatTypes.GAME_ITEMS_SOLD_BY_TYPE>Game items sold by type</RimMetrics.StatTypes.GAME_ITEMS_SOLD_BY_TYPE>
   <RimMetrics.StatTypes.GAME_NUTRITION_EATEN>Game nutrition eaten</RimMetrics.StatTypes.GAME_NUTRITION_EATEN>
+  <RimMetrics.StatTypes.GAME_NUTRITION_EATEN_BY_TYPE>Game nutrition eaten by type</RimMetrics.StatTypes.GAME_NUTRITION_EATEN_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_FOOD_EATEN_COUNT_BY_TYPE>Game food eaten (count) by type</RimMetrics.StatTypes.GAME_FOOD_EATEN_COUNT_BY_TYPE>
   <RimMetrics.StatTypes.GAME_OPERATIONS_PERFORMED>Game operations performed</RimMetrics.StatTypes.GAME_OPERATIONS_PERFORMED>
   <RimMetrics.StatTypes.GAME_OPERATIONS_RECEIVED>Game operations received</RimMetrics.StatTypes.GAME_OPERATIONS_RECEIVED>
   <RimMetrics.StatTypes.GAME_PEOPLE_CAPTURED>Game people captured</RimMetrics.StatTypes.GAME_PEOPLE_CAPTURED>

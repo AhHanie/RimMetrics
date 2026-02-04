@@ -101,6 +101,8 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `GAME_NEAR_DEATH_EVENTS` | Game near-death events (bleeding) | Tracks game near-death events (bleeding). |
 | `GAME_NEGOTIATED_TRADES` | Game negotiated trades | Tracks game negotiated trades. |
 | `GAME_NUTRITION_EATEN` | Game nutrition eaten | Tracks game nutrition eaten. |
+| `GAME_NUTRITION_EATEN_BY_TYPE` | Game nutrition eaten by type | Tracks game nutrition eaten by type; keyed by thing defName. |
+| `GAME_FOOD_EATEN_COUNT_BY_TYPE` | Game food eaten (count) by type | Tracks game food eaten (count) by type; keyed by thing defName. |
 | `GAME_NUTRITION_PRODUCED` | Game nutrition produced | Tracks game nutrition produced. |
 | `GAME_OPERATIONS_PERFORMED` | Game operations performed | Tracks game operations performed. |
 | `GAME_OPERATIONS_RECEIVED` | Game operations received | Tracks game operations received. |
@@ -191,7 +193,6 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `GAME_WEAPONS_EQUIPPED_TOTAL` | Game weapons equipped (total) | Tracks game weapons equipped (total). |
 | `GAME_WEAPONS_UNEQUIPPED` | Game weapons unequipped | Tracks game weapons unequipped. |
 | `GAME_WEAPONS_UNEQUIPPED_TOTAL` | Game weapons unequipped (total) | Tracks game weapons unequipped (total). |
-| `GAME_UNIQUE_WEAPONS_INSPIRED` | Game unique weapons inspired | Tracks game unique weapons inspired. |
 | `PAWN_ABILITIES_CAST` | Pawn abilities cast | Tracks pawn abilities cast. |
 | `PAWN_ABILITIES_CAST_BY_TYPE` | Pawn abilities cast by type | Tracks pawn abilities cast by type; keyed by type defName. |
 | `PAWN_ANIMALS_SLAUGHTERED` | Pawn animals slaughtered | Tracks pawn animals slaughtered. |
@@ -278,6 +279,8 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `PAWN_NEAR_DEATH_EVENTS` | Pawn near-death events (bleeding) | Tracks pawn near-death events (bleeding). |
 | `PAWN_NEGOTIATED_TRADES` | Pawn negotiated trades | Tracks pawn negotiated trades. |
 | `PAWN_NUTRITION_EATEN` | Pawn nutrition eaten | Tracks pawn nutrition eaten. |
+| `PAWN_NUTRITION_EATEN_BY_TYPE` | Pawn nutrition eaten by type | Tracks pawn nutrition eaten by type; keyed by thing defName. |
+| `PAWN_FOOD_EATEN_COUNT_BY_TYPE` | Pawn food eaten (count) by type | Tracks pawn food eaten (count) by type; keyed by thing defName. |
 | `PAWN_NUTRITION_PRODUCED` | Pawn nutrition produced | Tracks pawn nutrition produced. |
 | `PAWN_OPERATIONS_PERFORMED` | Pawn operations performed | Tracks pawn operations performed. |
 | `PAWN_OPERATIONS_RECEIVED` | Pawn operations received | Tracks pawn operations received. |
@@ -357,7 +360,6 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `PAWN_WEAPONS_EQUIPPED_TOTAL` | Pawn weapons equipped (total) | Tracks pawn weapons equipped (total). |
 | `PAWN_WEAPONS_UNEQUIPPED` | Pawn weapons unequipped | Tracks pawn weapons unequipped. |
 | `PAWN_WEAPONS_UNEQUIPPED_TOTAL` | Pawn weapons unequipped (total) | Tracks pawn weapons unequipped (total). |
-| `PAWN_UNIQUE_WEAPONS_INSPIRED` | Pawn unique weapons inspired | Tracks pawn unique weapons inspired. |
 
 ## Infusion2
 
@@ -388,4 +390,11 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `PAWN_TOTAL_WEAPONS_RENAMED` | Pawn weapons renamed (total) | Tracks pawn weapons renamed (total). |
 | `PAWN_WEAPON_BOND_MASTERIES_TOTAL` | Pawn weapon bond masteries (total) | Tracks pawn weapon bond masteries (total). |
 | `PAWN_WEAPON_CLASS_MASTERIES_TOTAL` | Pawn weapon class masteries (total) | Tracks pawn weapon class masteries (total). |
+
+## InspiredUnique
+
+| Stat ID | Display Name | Description |
+|---|---|---|
+| `GAME_UNIQUE_WEAPONS_INSPIRED` | Game unique weapons inspired | Tracks game unique weapons inspired. |
+| `PAWN_UNIQUE_WEAPONS_INSPIRED` | Pawn unique weapons inspired | Tracks pawn unique weapons inspired. |
 

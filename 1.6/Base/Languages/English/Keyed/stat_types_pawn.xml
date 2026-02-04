@@ -88,6 +88,8 @@
   <RimMetrics.StatTypes.PAWN_RESEARCH_SESSIONS>Pawn research sessions started</RimMetrics.StatTypes.PAWN_RESEARCH_SESSIONS>
   <RimMetrics.StatTypes.PAWN_CORPSES_BURIED>Pawn corpses buried</RimMetrics.StatTypes.PAWN_CORPSES_BURIED>
   <RimMetrics.StatTypes.PAWN_NUTRITION_EATEN>Pawn nutrition eaten</RimMetrics.StatTypes.PAWN_NUTRITION_EATEN>
+  <RimMetrics.StatTypes.PAWN_NUTRITION_EATEN_BY_TYPE>Pawn nutrition eaten by type</RimMetrics.StatTypes.PAWN_NUTRITION_EATEN_BY_TYPE>
+  <RimMetrics.StatTypes.PAWN_FOOD_EATEN_COUNT_BY_TYPE>Pawn food eaten (count) by type</RimMetrics.StatTypes.PAWN_FOOD_EATEN_COUNT_BY_TYPE>
   <RimMetrics.StatTypes.PAWN_BODIES_STRIPPED>Pawn bodies stripped</RimMetrics.StatTypes.PAWN_BODIES_STRIPPED>
   <RimMetrics.StatTypes.PAWN_THINGS_UNINSTALLED>Pawn things uninstalled</RimMetrics.StatTypes.PAWN_THINGS_UNINSTALLED>
   <RimMetrics.StatTypes.PAWN_ARTIFACTS_ACTIVATED>Pawn artifacts activated</RimMetrics.StatTypes.PAWN_ARTIFACTS_ACTIVATED>

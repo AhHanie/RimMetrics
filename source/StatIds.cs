@@ -30,6 +30,8 @@ namespace RimMetrics
         public const string GAME_GENES_GAINED_BY_TYPE = "GAME_GENES_GAINED_BY_TYPE";
         public const string GAME_INFECTIONS_RECEIVED = "GAME_INFECTIONS_RECEIVED";
         public const string GAME_JOB_TIME_SHARE_BY_TYPE = "GAME_JOB_TIME_SHARE_BY_TYPE";
+        public const string GAME_NUTRITION_EATEN_BY_TYPE = "GAME_NUTRITION_EATEN_BY_TYPE";
+        public const string GAME_FOOD_EATEN_COUNT_BY_TYPE = "GAME_FOOD_EATEN_COUNT_BY_TYPE";
         public const string PAWN_KILLS = "PAWN_KILLS";
         public const string PAWN_ITEMS_BOUGHT_BY_TYPE = "PAWN_ITEMS_BOUGHT_BY_TYPE";
         public const string PAWN_ITEMS_SOLD_BY_TYPE = "PAWN_ITEMS_SOLD_BY_TYPE";
@@ -125,6 +127,8 @@ namespace RimMetrics
         public const string PAWN_RESEARCH_POINTS_RESEARCHED = "PAWN_RESEARCH_POINTS_RESEARCHED";
         public const string PAWN_CORPSES_BURIED = "PAWN_CORPSES_BURIED";
         public const string PAWN_NUTRITION_EATEN = "PAWN_NUTRITION_EATEN";
+        public const string PAWN_NUTRITION_EATEN_BY_TYPE = "PAWN_NUTRITION_EATEN_BY_TYPE";
+        public const string PAWN_FOOD_EATEN_COUNT_BY_TYPE = "PAWN_FOOD_EATEN_COUNT_BY_TYPE";
         public const string PAWN_BODIES_STRIPPED = "PAWN_BODIES_STRIPPED";
         public const string PAWN_THINGS_UNINSTALLED = "PAWN_THINGS_UNINSTALLED";
         public const string PAWN_ARTIFACTS_ACTIVATED = "PAWN_ARTIFACTS_ACTIVATED";

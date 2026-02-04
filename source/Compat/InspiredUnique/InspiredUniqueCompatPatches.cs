@@ -46,7 +46,9 @@ namespace RimMetrics.Patches
             for (var i = 1; i < list.Count; i++)
             {
                 var instruction = list[i];
-                if (instruction.opcode != System.Reflection.Emit.OpCodes.Stsfld || instruction.operand != FinishingFlagField)
+                if (instruction.opcode != System.Reflection.Emit.OpCodes.Stsfld
+                    || !(instruction.operand is FieldInfo field)
+                    || field != FinishingFlagField)
                 {
                     continue;
                 }

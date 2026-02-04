@@ -12,7 +12,7 @@ namespace RimMetrics
         {
             ColonistStatsViewer,
             GameStatsViewer,
-            PlaceholderTwo
+            ColonistLeaderboards
         }
 
         private const float TabHeaderHeight = 32f;
@@ -27,6 +27,7 @@ namespace RimMetrics
         private readonly TopStatsPanel topStatsPanel = new TopStatsPanel();
         private readonly StatsListPanel statsListPanel = new StatsListPanel();
         private readonly GameStatsListPanel gameStatsListPanel = new GameStatsListPanel();
+        private readonly ColonistLeaderboardPanel colonistLeaderboardPanel = new ColonistLeaderboardPanel();
 
         public override void PostOpen()
         {
@@ -48,7 +49,7 @@ namespace RimMetrics
             {
                 new TabRecord("RimMetrics.UI.Tab.ColonistStats".Translate(), () => currentTab = RimMetricsTab.ColonistStatsViewer, currentTab == RimMetricsTab.ColonistStatsViewer),
                 new TabRecord("RimMetrics.UI.Tab.GameStats".Translate(), () => currentTab = RimMetricsTab.GameStatsViewer, currentTab == RimMetricsTab.GameStatsViewer),
-                new TabRecord("RimMetrics.UI.Tab.PlaceholderTwo".Translate(), () => currentTab = RimMetricsTab.PlaceholderTwo, currentTab == RimMetricsTab.PlaceholderTwo)
+                new TabRecord("RimMetrics.UI.Tab.ColonistLeaderboards".Translate(), () => currentTab = RimMetricsTab.ColonistLeaderboards, currentTab == RimMetricsTab.ColonistLeaderboards)
             };
 
             var tabsRect = new Rect(contentRect.x, contentRect.y, contentRect.width, 45f);
@@ -63,17 +64,10 @@ namespace RimMetrics
                 case RimMetricsTab.GameStatsViewer:
                     DrawGameStatsViewer(contentRect);
                     break;
-                case RimMetricsTab.PlaceholderTwo:
-                    DrawPlaceholder(contentRect, "RimMetrics.UI.Tab.PlaceholderTwo".Translate());
+                case RimMetricsTab.ColonistLeaderboards:
+                    DrawColonistLeaderboards(contentRect);
                     break;
             }
-        }
-
-        private void DrawPlaceholder(Rect rect, string label)
-        {
-            Text.Anchor = TextAnchor.MiddleCenter;
-            Widgets.Label(rect, "RimMetrics.UI.ComingSoon".Translate(label));
-            Text.Anchor = TextAnchor.UpperLeft;
         }
 
         private void DrawColonistStatsViewer(Rect rect)
@@ -126,6 +120,11 @@ namespace RimMetrics
 
             var listRect = new Rect(rect.x, rect.y + buttonHeight + SectionSpacing, rect.width, rect.height - buttonHeight - SectionSpacing);
             gameStatsListPanel.Draw(listRect);
+        }
+
+        private void DrawColonistLeaderboards(Rect rect)
+        {
+            colonistLeaderboardPanel.Draw(rect, GetColonists());
         }
 
         private void EnsureSelectedPawn()

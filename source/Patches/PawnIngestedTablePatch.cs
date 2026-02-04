@@ -65,7 +65,11 @@ namespace RimMetrics.Patches
                 return;
             }
 
-            Logger.Message("Tracking meal consumption");
+            var nutrition = thing.def.ingestible.CachedNutrition;
+            if (nutrition > 0f)
+            {
+                comp.IncrementTotalFloat(StatIds.PAWN_NUTRITION_EATEN_BY_TYPE, thing.def.defName, nutrition);
+            }
 
             var withoutTable =
                 !(ingester.Position + ingester.Rotation.FacingCell).HasEatSurface(actor.Map)
@@ -81,6 +85,25 @@ namespace RimMetrics.Patches
             {
                 comp.IncrementTotalInt(StatIds.PAWN_MEALS_AT_TABLE);
             }
+        }
+    }
+
+    [HarmonyPatch(typeof(Thing), "IngestedCalculateAmounts")]
+    public static class PawnIngestedAmountsPatch
+    {
+        public static void Postfix(Thing __instance, Pawn ingester, ref int numTaken)
+        {
+            if (numTaken <= 0)
+            {
+                return;
+            }
+
+            if (!ingester.TryGetComp(out Comp_PawnStats comp))
+            {
+                return;
+            }
+
+            comp.IncrementTotalInt(StatIds.PAWN_FOOD_EATEN_COUNT_BY_TYPE, __instance.def.defName, numTaken);
         }
     }
 }

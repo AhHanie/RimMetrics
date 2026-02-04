@@ -279,6 +279,8 @@ namespace RimMetrics
             Register(StatIds.PAWN_RESEARCH_SESSIONS, StatCategory.RESEARCH);
             Register(StatIds.PAWN_CORPSES_BURIED, StatCategory.MISC_EVENTS, source: StatSource.RecordDef, recordDefName: "CorpsesBuried");
             Register(StatIds.PAWN_NUTRITION_EATEN, StatCategory.NEEDS_SURVIVAL, source: StatSource.RecordDef, recordDefName: "NutritionEaten");
+            Register(StatIds.PAWN_NUTRITION_EATEN_BY_TYPE, StatCategory.NEEDS_SURVIVAL, statValueType: StatValueType.Float, hasKey: true);
+            Register(StatIds.PAWN_FOOD_EATEN_COUNT_BY_TYPE, StatCategory.NEEDS_SURVIVAL, hasKey: true);
             Register(StatIds.PAWN_BODIES_STRIPPED, StatCategory.MISC_EVENTS, source: StatSource.RecordDef, recordDefName: "BodiesStripped");
             Register(StatIds.PAWN_THINGS_UNINSTALLED, StatCategory.CONSTRUCTION, source: StatSource.RecordDef, recordDefName: "ThingsUninstalled");
             Register(StatIds.PAWN_ARTIFACTS_ACTIVATED, StatCategory.MISC_EVENTS, source: StatSource.RecordDef, recordDefName: "ArtifactsActivated");
