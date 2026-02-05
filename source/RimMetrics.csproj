@@ -26,7 +26,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\1.6\Base\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -44,6 +44,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=2.0.2.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\1.6\Base\Assemblies\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -95,6 +99,7 @@
     <Compile Include="ModDefOf.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="UserLogger.cs" />
     <Compile Include="DiseaseDefs.cs" />
     <Compile Include="ColonistTopStats.cs" />
     <Compile Include="Compat\ModCompat.cs" />
@@ -106,6 +111,8 @@
     <Compile Include="Compat\WeaponMastery\WeaponMasteryCompatPatches.cs" />
     <Compile Include="Patches\GameFactionRelationStatsPatch.cs" />
     <Compile Include="RecordValueReader.cs" />
+    <Compile Include="RimMetricsNativeESqlite3Loader.cs" />
+    <Compile Include="RimMetricsSqliteSelfTest.cs" />
     <Compile Include="StatStringHelper.cs" />
     <Compile Include="StatIds.cs" />
     <Compile Include="StatRegistry.cs" />
@@ -155,6 +162,7 @@
     <Compile Include="Patches\\GameLaunchStatsPatch.cs" />
     <Compile Include="Patches\GameQuestStatsPatch.cs" />
     <Compile Include="Patches\GameResearchProjectCompletedPatch.cs" />
+    <Compile Include="Patches\GameVisitorStatsPatch.cs" />
     <Compile Include="Patches\RaidTaggingPatch.cs" />
     <Compile Include="Patches\RecordsCardOverridePatch.cs" />
     <Compile Include="StatsData.cs" />

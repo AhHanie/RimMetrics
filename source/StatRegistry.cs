@@ -204,9 +204,16 @@ namespace RimMetrics
                 statValueType: StatValueType.Float,
                 calculatorType: typeof(GameTradeProfitStatProvider),
                 autoRegisterGameStat: false);
+            Register(StatIds.GAME_ORBITAL_TRADERS_VISITED, StatCategory.ECONOMY_TRADE, statType: StatType.GAME, autoRegisterGameStat: false);
+            Register(StatIds.GAME_ORBITAL_TRADERS_VISITED_BY_TYPE, StatCategory.ECONOMY_TRADE, statType: StatType.GAME, hasKey: true, autoRegisterGameStat: false);
+            Register(StatIds.GAME_TRADE_CARAVANS_VISITED, StatCategory.ECONOMY_TRADE, statType: StatType.GAME, autoRegisterGameStat: false);
+            Register(StatIds.GAME_TRADE_CARAVANS_VISITED_BY_TYPE, StatCategory.ECONOMY_TRADE, statType: StatType.GAME, hasKey: true, autoRegisterGameStat: false);
+            Register(StatIds.GAME_TRADE_CARAVANS_VISITED_PAWNS, StatCategory.ECONOMY_TRADE, statType: StatType.GAME, autoRegisterGameStat: false);
+            Register(StatIds.GAME_VISITORS, StatCategory.MISC_EVENTS, statType: StatType.GAME, autoRegisterGameStat: false);
             Register(StatIds.GAME_TOTAL_INCIDENTS, StatCategory.MISC_EVENTS, statType: StatType.GAME, autoRegisterGameStat: false);
             Register(StatIds.GAME_TOTAL_INCIDENTS_BY_TYPE, StatCategory.MISC_EVENTS, statType: StatType.GAME, hasKey: true, iconSelectorType: typeof(SimpleIconSelector), autoRegisterGameStat: false);
             Register(StatIds.GAME_TOTAL_RAIDS, StatCategory.COMBAT, statType: StatType.GAME, autoRegisterGameStat: false);
+            Register(StatIds.GAME_TOTAL_RAIDS_BY_FACTION, StatCategory.COMBAT, statType: StatType.GAME, hasKey: true, autoRegisterGameStat: false);
             Register(StatIds.GAME_COLONISTS_JOINED, StatCategory.SOCIAL_IDEOLOGY, statType: StatType.GAME, autoRegisterGameStat: false);
             Register(StatIds.GAME_COLONISTS_LOST, StatCategory.SOCIAL_IDEOLOGY, statType: StatType.GAME, autoRegisterGameStat: false);
             Register(StatIds.GAME_FACTIONS_ALLIED, StatCategory.SOCIAL_IDEOLOGY, statType: StatType.GAME, autoRegisterGameStat: false);

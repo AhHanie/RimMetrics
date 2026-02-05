@@ -6,6 +6,7 @@ namespace RimMetrics
         public const string GAME_TOTAL_INCIDENTS = "GAME_TOTAL_INCIDENTS";
         public const string GAME_TOTAL_INCIDENTS_BY_TYPE = "GAME_TOTAL_INCIDENTS_BY_TYPE";
         public const string GAME_TOTAL_RAIDS = "GAME_TOTAL_RAIDS";
+        public const string GAME_TOTAL_RAIDS_BY_FACTION = "GAME_TOTAL_RAIDS_BY_FACTION";
         public const string GAME_TRADE_PROFIT = "GAME_TRADE_PROFIT";
         public const string GAME_COLONISTS_JOINED = "GAME_COLONISTS_JOINED";
         public const string GAME_COLONISTS_LOST = "GAME_COLONISTS_LOST";
@@ -23,6 +24,12 @@ namespace RimMetrics
         public const string GAME_GRAVSHIPS_LAUNCHED = "GAME_GRAVSHIPS_LAUNCHED";
         public const string GAME_SHUTTLES_LAUNCHED = "GAME_SHUTTLES_LAUNCHED";
         public const string GAME_TRANSPORT_PODS_LAUNCHED = "GAME_TRANSPORT_PODS_LAUNCHED";
+        public const string GAME_ORBITAL_TRADERS_VISITED = "GAME_ORBITAL_TRADERS_VISITED";
+        public const string GAME_ORBITAL_TRADERS_VISITED_BY_TYPE = "GAME_ORBITAL_TRADERS_VISITED_BY_TYPE";
+        public const string GAME_TRADE_CARAVANS_VISITED = "GAME_TRADE_CARAVANS_VISITED";
+        public const string GAME_TRADE_CARAVANS_VISITED_BY_TYPE = "GAME_TRADE_CARAVANS_VISITED_BY_TYPE";
+        public const string GAME_VISITORS = "GAME_VISITORS";
+        public const string GAME_TRADE_CARAVANS_VISITED_PAWNS = "GAME_TRADE_CARAVANS_VISITED_PAWNS";
         public const string GAME_MEMORY_THOUGHTS = "GAME_MEMORY_THOUGHTS";
         public const string GAME_MEMORY_THOUGHTS_BY_TYPE = "GAME_MEMORY_THOUGHTS_BY_TYPE";
         public const string GAME_SKILL_LEVELS_GAINED = "GAME_SKILL_LEVELS_GAINED";

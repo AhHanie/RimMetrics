@@ -44,6 +44,12 @@
   <RimMetrics.StatTypes.GAME_CRAFTS_BY_THING_CATEGORIES>Game crafts by thing categories</RimMetrics.StatTypes.GAME_CRAFTS_BY_THING_CATEGORIES>
   <RimMetrics.StatTypes.GAME_CRAFTS_MARKET_VALUE>Game crafts market value</RimMetrics.StatTypes.GAME_CRAFTS_MARKET_VALUE>
   <RimMetrics.StatTypes.GAME_TRADE_PROFIT>Game trade profit</RimMetrics.StatTypes.GAME_TRADE_PROFIT>
+  <RimMetrics.StatTypes.GAME_ORBITAL_TRADERS_VISITED>Game orbital traders visited</RimMetrics.StatTypes.GAME_ORBITAL_TRADERS_VISITED>
+  <RimMetrics.StatTypes.GAME_ORBITAL_TRADERS_VISITED_BY_TYPE>Game orbital traders visited by type</RimMetrics.StatTypes.GAME_ORBITAL_TRADERS_VISITED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TRADE_CARAVANS_VISITED>Game trade caravans visited</RimMetrics.StatTypes.GAME_TRADE_CARAVANS_VISITED>
+  <RimMetrics.StatTypes.GAME_TRADE_CARAVANS_VISITED_BY_TYPE>Game trade caravans visited by type</RimMetrics.StatTypes.GAME_TRADE_CARAVANS_VISITED_BY_TYPE>
+  <RimMetrics.StatTypes.GAME_TRADE_CARAVANS_VISITED_PAWNS>Game trade caravans visited (pawns)</RimMetrics.StatTypes.GAME_TRADE_CARAVANS_VISITED_PAWNS>
+  <RimMetrics.StatTypes.GAME_VISITORS>Game visitors (pawns)</RimMetrics.StatTypes.GAME_VISITORS>
   <RimMetrics.StatTypes.GAME_DAMAGE_DEALT>Game damage dealt</RimMetrics.StatTypes.GAME_DAMAGE_DEALT>
   <RimMetrics.StatTypes.GAME_DAMAGE_DEALT_BY_TYPE>Game damage dealt by type</RimMetrics.StatTypes.GAME_DAMAGE_DEALT_BY_TYPE>
   <RimMetrics.StatTypes.GAME_DAMAGE_TAKEN>Game damage taken</RimMetrics.StatTypes.GAME_DAMAGE_TAKEN>
@@ -129,6 +135,7 @@
   <RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS>Game total incidents</RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS>
   <RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS_BY_TYPE>Game total incidents by type</RimMetrics.StatTypes.GAME_TOTAL_INCIDENTS_BY_TYPE>
   <RimMetrics.StatTypes.GAME_TOTAL_RAIDS>Game total raids</RimMetrics.StatTypes.GAME_TOTAL_RAIDS>
+  <RimMetrics.StatTypes.GAME_TOTAL_RAIDS_BY_FACTION>Game total raids by faction</RimMetrics.StatTypes.GAME_TOTAL_RAIDS_BY_FACTION>
   <RimMetrics.StatTypes.GAME_SOCIAL_FIGHTS>Game social fights</RimMetrics.StatTypes.GAME_SOCIAL_FIGHTS>
   <RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS>Game social interactions</RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS>
   <RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS_BY_TYPE>Game social interactions by type</RimMetrics.StatTypes.GAME_SOCIAL_INTERACTIONS_BY_TYPE>

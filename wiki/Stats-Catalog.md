@@ -100,6 +100,8 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `GAME_MESSES_CLEANED` | Game messes cleaned | Tracks game messes cleaned. |
 | `GAME_NEAR_DEATH_EVENTS` | Game near-death events (bleeding) | Tracks game near-death events (bleeding). |
 | `GAME_NEGOTIATED_TRADES` | Game negotiated trades | Tracks game negotiated trades. |
+| `GAME_ORBITAL_TRADERS_VISITED` | Game orbital traders visited | Tracks orbital trader ship visits. |
+| `GAME_ORBITAL_TRADERS_VISITED_BY_TYPE` | Game orbital traders visited by type | Tracks orbital trader ship visits by trader kind defName. |
 | `GAME_NUTRITION_EATEN` | Game nutrition eaten | Tracks game nutrition eaten. |
 | `GAME_NUTRITION_EATEN_BY_TYPE` | Game nutrition eaten by type | Tracks game nutrition eaten by type; keyed by thing defName. |
 | `GAME_FOOD_EATEN_COUNT_BY_TYPE` | Game food eaten (count) by type | Tracks game food eaten (count) by type; keyed by thing defName. |
@@ -181,12 +183,17 @@ Generated from localization keys in `1.6/*/Languages/English/Keyed/*.xml`.
 | `GAME_TOTAL_INCIDENTS` | Game total incidents | Tracks game total incidents. |
 | `GAME_TOTAL_INCIDENTS_BY_TYPE` | Game total incidents by type | Tracks game total incidents by type; keyed by type defName. |
 | `GAME_TOTAL_RAIDS` | Game total raids | Tracks game total raids. |
+| `GAME_TOTAL_RAIDS_BY_FACTION` | Game total raids by faction | Tracks game raids by faction defName. |
 | `GAME_TRADES_EARNED` | Game trades earned | Tracks game trades earned. |
 | `GAME_TRADES_INITIATED` | Game trades initiated | Tracks game trades initiated. |
 | `GAME_TRADES_PAID` | Game trades paid | Tracks game trades paid. |
 | `GAME_TRADE_PROFIT` | Game trade profit | Tracks game trade profit. |
+| `GAME_TRADE_CARAVANS_VISITED` | Game trade caravans visited | Tracks trader caravan arrivals. |
+| `GAME_TRADE_CARAVANS_VISITED_BY_TYPE` | Game trade caravans visited by type | Tracks trader caravan arrivals by trader kind defName. |
+| `GAME_TRADE_CARAVANS_VISITED_PAWNS` | Game trade caravans visited (pawns) | Tracks total humanlike pawns that arrived in trader caravans. |
 | `GAME_TRANSPORT_PODS_LAUNCHED` | Game transport pods launched | Tracks game transport pods launched. |
 | `GAME_TREES_CHOPPED` | Game trees chopped | Tracks game trees chopped. |
+| `GAME_VISITORS` | Game visitors (pawns) | Tracks total humanlike visitor pawns; includes trader caravans. |
 | `GAME_WALLS_BUILT` | Game walls built | Tracks game walls built. |
 | `GAME_WALLS_SMOOTHED` | Game walls smoothed | Tracks game walls smoothed. |
 | `GAME_WEAPONS_EQUIPPED` | Game weapons equipped | Tracks game weapons equipped. |
