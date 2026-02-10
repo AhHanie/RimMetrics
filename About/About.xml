@@ -7,7 +7,7 @@
         <li>1.6</li>
     </supportedVersions>
     <description>A lightweight telemetry and statistics framework for RimWorld. Collects metrics on pawns and game events for analysis, visualization, or mod integrations.</description>
-    <modVersion>1.3.2</modVersion>
+    <modVersion>1.3.3</modVersion>
     <url>https://github.com/AhHanie/RimMetrics</url>
     <modDependencies>
         <li>
