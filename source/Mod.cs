@@ -2,11 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using RimMetrics.Components;
 using Verse;
-using RimMetrics.Helpers;
 
 namespace RimMetrics
 {

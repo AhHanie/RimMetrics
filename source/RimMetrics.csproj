@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0"
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="packages\Krafs.Publicizer.2.3.0\build\Krafs.Publicizer.props" Condition="Exists('packages\Krafs.Publicizer.2.3.0\build\Krafs.Publicizer.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -111,8 +112,6 @@
     <Compile Include="Compat\WeaponMastery\WeaponMasteryCompatPatches.cs" />
     <Compile Include="Patches\GameFactionRelationStatsPatch.cs" />
     <Compile Include="RecordValueReader.cs" />
-    <Compile Include="RimMetricsNativeESqlite3Loader.cs" />
-    <Compile Include="RimMetricsSqliteSelfTest.cs" />
     <Compile Include="StatStringHelper.cs" />
     <Compile Include="StatIds.cs" />
     <Compile Include="StatRegistry.cs" />
